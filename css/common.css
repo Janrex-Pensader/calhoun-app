@@ -1,4 +1,9 @@
 /* Common/Bootstrap overrides */
+
+
+.w-fit-content{
+width: fit-content;
+}
 .row{
   margin-left: 0px !important;
   margin-right: 0px !important;

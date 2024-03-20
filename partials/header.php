@@ -24,6 +24,7 @@
     <!-- Local JS -->
     <script src="../js/common.js" type="text/javascript"></script>
     <script src="../js/jquery.datetimepicker.full.min.js" type="text/javascript"></script>
+    <script src="../js/lib/Inputmask-5.x/dist/jquery.inputmask.min.js"></script>
     <!-- ./Assets -->
 
     

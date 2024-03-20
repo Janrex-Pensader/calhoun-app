@@ -43,7 +43,7 @@
           <a class="nav-link" href="./tenants.php?cbResetParam=1"><i class="fas fa-users"></i> Tenants</a>
         </li>
         <li id="nav-cases" class="nav-item">
-          <a class="nav-link" href="./cases.php?cbResetParam=1"><i class="fas fa-file"></i> Cases</a>
+          <a class="nav-link" href="./cases.php?cbResetParam=1&Case_Status_ID=1"><i class="fas fa-file"></i> Cases</a>
         </li>
       </ul>
     </div>

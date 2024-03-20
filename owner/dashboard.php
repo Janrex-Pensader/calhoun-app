@@ -66,12 +66,20 @@
                 </div>
                 <div class="row">
                     <div class="col cb-custom-card mx-1">
+                        <button type="button" class="btn btn-primary" style="width: fit-content !important" onclick="openModal('Add Case','72ddbd34090c4bbfb924','')"><i class="fas fa-plus mr-2"></i>Add Case</button>
                     </div>
                 </div>
             </div>
         </div>
 
     </main>
+
+    <!-- modal container -->
+		<div id="footer">
+            <script>load_modal()</script>
+        </div>
+    <!-- ./modal container -->
+
     <!-- /.container -->
     <script>
         
@@ -111,49 +119,6 @@
         });
         
     </script>
-    <!-- <script>
-        var counter = 0;
-
-        document.addEventListener('DataPageReady', function (event) {
-            $(window).resize(function () {
-                var width = $(window).width();
-                console.log(width)
-                let myVar = setTimeout(function () {
-                    $(".highcharts-plot-border").attr("stroke-width", 0)
-                    // $(".highcharts-background").attr("stroke-width", 0)
-                    $(".highcharts-axis-line").attr("stroke-width", 0)
-                    $(".highcharts-tick").attr("stroke-width", 0)
-                }, 500);
-            });
-
-            $(".highcharts-plot-border").attr("stroke-width", 0)
-            // $(".highcharts-background").attr("stroke-width", 0)
-            $(".highcharts-axis-line").attr("stroke-width", 0)
-            $(".highcharts-tick").attr("stroke-width", 0)
-
-            if (event.detail.appKey == 'cb26a0004b62df0e81084c58a4da') {
-                counter++;
-            } else if (event.detail.appKey == 'cb26a000259c26aaa33b431ca243') {
-                counter++;
-            } else if (event.detail.appKey == 'cb26a0005896d57e5e2741a09d2d') {
-                counter++;
-            } else if (event.detail.appKey == 'cb26a000cf78addf40d9420ba394') {
-                counter++;
-            } else if (event.detail.appKey == 'cb26a00089ce29fba4914a4bb1d5') {
-                counter++;
-            } else if (event.detail.appKey == 'cb26a000fcc08a4eefeb4782afed') {
-                counter++;
-            }
-            // Load all DataPages then show
-            if (counter === 5) {
-                setTimeout(function () {
-                    $('.cb-hide').each(function () {
-                        $(this).css('opacity', '100');
-                    });
-                }, 500);
-            }
-        });
-    </script> -->
 </body>
 
 </html>
