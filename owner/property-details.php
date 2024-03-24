@@ -29,7 +29,7 @@
                 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003547b79c737341e88afa/emb"></script>
 			</div>
             <!-- Tenant list -->
-            <div class="col ml-1 cb-custom-card">
+            <div class="col ml-1 cb-custom-card" style="height: 600px !important; overflow-y:scroll">
                 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080004a2be9ec0cab4eb6ad80/emb"></script>
 			</div>
 		</div>

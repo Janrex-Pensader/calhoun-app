@@ -21,14 +21,13 @@
       </li>
     <ul>
 </div>
-
 <div class="row px-13">
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav">
         <li id="nav-dashboard" class="nav-item">
           <a class="nav-link" href="./index.php?cbResetParam=1"><i class="fas fa-address-card"></i> Dashboard</a>
         </li>
-        <!-- <li class="nav-item dropdown d-none" id="nav-manage-contacts">
+        <li class="nav-item dropdown d-none" id="nav-manage-contacts">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-address-card"></i> Manage Contacts
           </a>
@@ -36,7 +35,7 @@
             <a class="dropdown-item" href="./manage-contacts.html?cbResetParam=1">All Contacts</a>
             <a class="dropdown-item" href="./add-contact.html">Add New Contact</a>
           </div>
-        </li> -->
+        </li>
         <li id="nav-properties" class="nav-item">
           <a class="nav-link" href="./properties.php?cbResetParam=1"><i class="fas fa-home"></i> Properties</a>
         </li>

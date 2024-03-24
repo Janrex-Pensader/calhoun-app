@@ -34,7 +34,6 @@
 		<div class="cb-custom-card mb-3">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
-					<button type="button" class="btn btn-primary mb-3" style="width: fit-content !important" onclick="openModal('Add Case','72ddbd34090c4bbfb924','')"><i class="fas fa-plus mr-2"></i>Add Case</button>
 					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080000bd836cb1714478d86ea/emb"></script>
 				</div>
 			</div>
