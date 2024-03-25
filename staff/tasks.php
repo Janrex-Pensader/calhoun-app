@@ -3,7 +3,7 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Staff: Owners</title>
+	<title>Staff: Tasks</title>
     <style>
         .cb-container-lg{
             width: 1550px !important;
@@ -17,7 +17,7 @@
         <?php include '../partials/staff-navbar.php';?>
     </div>
 
-	<script>$('#nav-owners').addClass('active');</script>
+	<script>$('#nav-tasks').addClass('active');</script>
 
 	<main role="main" class="container-fluid cb-container-lg mb-5">
 
@@ -25,7 +25,7 @@
 
 		<nav class="mt-rem-5" aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-users"></i> Owners</li>
+				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-tasks"></i> Tasks</li>
 			</ol>
 		</nav>
 
@@ -39,7 +39,6 @@
 		<div class="cb-custom-card">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
-					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000275cdbb337b0498b9316/emb"></script>
 				</div>
 			</div>
 		</div>
