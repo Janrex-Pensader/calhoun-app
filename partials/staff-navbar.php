@@ -1,6 +1,6 @@
 <!-- Hidden DP -->
 <div class="d-none">
-        <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080001d68ca8f2130479fa701/emb"></script>
+  <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000c536b61d4e924b49966d/emb"></script>
 </div>
 
 <div class="row px-13" style="background-color: #2A2F42 !important">
@@ -27,7 +27,7 @@
         <li id="nav-dashboard" class="nav-item">
           <a class="nav-link" href="./index.php?cbResetParam=1"><i class="fas fa-address-card"></i> Dashboard</a>
         </li>
-        <li class="nav-item dropdown d-none" id="nav-manage-contacts">
+        <!-- <li class="nav-item dropdown d-none" id="nav-manage-contacts">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-address-card"></i> Manage Contacts
           </a>
@@ -35,6 +35,9 @@
             <a class="dropdown-item" href="./manage-contacts.html?cbResetParam=1">All Contacts</a>
             <a class="dropdown-item" href="./add-contact.html">Add New Contact</a>
           </div>
+        </li> -->
+        <li id="nav-owners" class="nav-item">
+          <a class="nav-link" href="./owners.php?cbResetParam=1"><i class="fas fa-users"></i> Owners</a>
         </li>
         <li id="nav-properties" class="nav-item">
           <a class="nav-link" href="./properties.php?cbResetParam=1"><i class="fas fa-home"></i> Properties</a>

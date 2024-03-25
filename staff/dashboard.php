@@ -14,7 +14,7 @@
 <body>
     <!--navbar container -->
     <div class="navbar-expand-lg navbar-light bg-light fixed-top" id="site-navbar">
-        <?php include '../partials/owner-navbar.php';?>
+        <?php include '../partials/staff-navbar.php';?>
     </div>
 
     <script>$('#nav-dashboard').addClass('active');</script>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="row">
                     <div class="col cb-custom-card mx-1">
-                        <button type="button" class="btn btn-primary" style="width: fit-content !important" onclick="openModal('Add Case','72ddbd34090c4bbfb924','')"><i class="fas fa-plus mr-2"></i>Add Case</button>
+
                     </div>
                 </div>
             </div>
@@ -82,41 +82,6 @@
 
     <!-- /.container -->
     <script>
-        
-        document.addEventListener('DataPageReady', function (event) {
-            if (event.detail.appKey == 'ded080001d68ca8f2130479fa701') {
-
-                //get the active case count
-                var caseCalc = document.querySelector("input[name='cbParamVirtual1']");
-                caseCalc.addEventListener("change",
-                    function(){
-                        var caseCount = caseCalc.value;
-                        document.querySelector("p[id='case-count']").innerHTML = caseCount;
-                        console.log(caseCount);
-                    }
-                );
-
-                //get the property count
-                var propertCalc = document.querySelector("input[name='cbParamVirtual2']");
-                propertCalc.addEventListener("change",
-                    function(){
-                        var propertyCount = propertCalc.value;
-                        document.querySelector("p[id='property-count']").innerHTML = propertyCount;
-                        console.log(propertyCount);
-                    }
-                );
-
-                //get the tenant count
-                var tenantCalc = document.querySelector("input[name='cbParamVirtual3']");
-                tenantCalc.addEventListener("change",
-                    function(){
-                        var tenantCount = tenantCalc.value;
-                        document.querySelector("p[id='tenant-count']").innerHTML = tenantCount;
-                        console.log(tenantCount);
-                    }
-                );
-            }
-        });
         
     </script>
 </body>
