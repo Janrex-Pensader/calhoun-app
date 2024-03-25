@@ -39,5 +39,10 @@
     <!-- ./modal container -->
 </body>
 
+<script type="text/javascript">
+document.addEventListener('DataPageReady', function (event) {
+	$('input[name*=Phone]').inputmask({mask: '(999)-999-9999', showMaskOnHover: false, placeholder: 'x'})  
+});
+</script>
 
 </html>

@@ -11,7 +11,7 @@
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #fff">
-          <img id="nav-user-image" src="../img/default_user_image.png" style="width:35px; border-radius:50%;">
+          <img id="nav-user-image" src="../img/default_user_image.png" alt="../img/default_user_image.png" style="width:35px; border-radius:50%;">
           <span class="ml-1"id="nav-user-name"></span>
         </a>
         <div class="dropdown-menu">
@@ -47,6 +47,18 @@
         </li>
         <li id="nav-cases" class="nav-item">
           <a class="nav-link" href="./cases.php?cbResetParam=1&Case_Status_ID=1"><i class="fas fa-file"></i> Cases</a>
+        </li>
+        <li id="nav-tasks" class="nav-item">
+          <a class="nav-link" href="./tasks.php?cbResetParam=1"><i class="fas fa-tasks"></i> Tasks</a>
+        </li>
+        <li id="nav-communications" class="nav-item">
+          <a class="nav-link" href="./communications.php?cbResetParam=1"><i class="fas fa-phone"></i> Communications</a>
+        </li>
+        <li id="nav-settings" class="nav-item">
+          <a class="nav-link" href="./settings.php?cbResetParam=1"><i class="fas fa-cogs"></i> Settings</a>
+        </li>
+        <li id="nav-reports" class="nav-item">
+          <a class="nav-link" href="./reports.php?cbResetParam=1"><i class="fas fa-clipboard-list"></i> Reports</a>
         </li>
       </ul>
     </div>

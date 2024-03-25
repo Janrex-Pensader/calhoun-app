@@ -3,34 +3,30 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Owner: Profile</title>
+	<title>Staff: Profile</title>
 </head>
 
 <body>
 	<!--navbar container -->
 	<div class="navbar-expand-lg navbar-light bg-light fixed-top" id="site-navbar">
-        <?php include '../partials/owner-navbar.php';?>
+        <?php include '../partials/staff-navbar.php';?>
     </div>
 
 	<script>$('#nav-profile').addClass('active');</script>
 
 	<main role="main" class="container-fluid cb-container-md">
 
-		<!-- Contents -->
-		<!-- <h3 class="mt-3">Profile</h3> -->
-
 		<nav class="mt-rem-5" aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-user"></i> Profile</li>
+				<li class="breadcrumb-item"><a href="./profile.php"><i class="fas fa-user"></i> Profile</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-edit"></i> Edit</li>
 			</ol>
 		</nav>
 
 		<div class="cb-custom-card">
 			<div class="row">
 				<div class="col-sm-6 mx-auto">
-					<div class="cb-form-resp cb-form-fluid">
-						<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080009e14b20e6c784f3f9dc8/emb"></script>
-					</div>
+					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000ffb5832772fb47fabb2e/emb"></script>
 				</div>
 			</div>
 		</div>
@@ -42,7 +38,13 @@
             <script>load_modal()</script>
         </div>
     <!-- ./modal container -->
-
 </body>
+
+<!-- script to add inputmaks -->
+<script type="text/javascript">
+document.addEventListener('DataPageReady', function (event) {
+	$('input[name*=Phone]').inputmask({mask: '(999)-999-9999', showMaskOnHover: false, placeholder: 'x'})  
+});
+</script>
 
 </html>

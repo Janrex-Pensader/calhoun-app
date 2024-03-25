@@ -3,13 +3,13 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Owner: Profile</title>
+	<title>Staff: Profile</title>
 </head>
 
 <body>
 	<!--navbar container -->
 	<div class="navbar-expand-lg navbar-light bg-light fixed-top" id="site-navbar">
-        <?php include '../partials/owner-navbar.php';?>
+        <?php include '../partials/staff-navbar.php';?>
     </div>
 
 	<script>$('#nav-profile').addClass('active');</script>
@@ -29,7 +29,7 @@
 			<div class="row">
 				<div class="col-sm-6 mx-auto">
 					<div class="cb-form-resp cb-form-fluid">
-						<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080009e14b20e6c784f3f9dc8/emb"></script>
+						<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000e88f58dd9a9b49b4ba05/emb"></script>
 					</div>
 				</div>
 			</div>

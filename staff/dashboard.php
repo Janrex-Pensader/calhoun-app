@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../partials/header.php';?>
-    <title>Owner: Dashboard</title>
+    <title>Staff: Dashboard</title>
     <style>
         .dashboard-icon{
             font-size: 50px
@@ -80,10 +80,6 @@
         </div>
     <!-- ./modal container -->
 
-    <!-- /.container -->
-    <script>
-        
-    </script>
 </body>
 
 </html>
