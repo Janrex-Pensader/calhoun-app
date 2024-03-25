@@ -25,10 +25,8 @@
 
 		<div class="cb-custom-card">
 			<div class="row">
-				<div class="col-sm-6 mx-auto">
-					<div class="cb-form-resp cb-form-fluid">
-						<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080000d0ebbcb9d6f40f89f6b/emb"></script>
-					</div>
+				<div class="col-lg-12 mx-auto">
+					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080000d0ebbcb9d6f40f89f6b/emb"></script>
 				</div>
 			</div>
 		</div>
