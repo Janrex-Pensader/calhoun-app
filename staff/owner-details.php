@@ -41,7 +41,7 @@
 
 		<!-- owner details -->
 		<div class="row cb-custom-card mb-3">
-			<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080009c7d628634c34b7c9711/emb"></script>
+			<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000590877b9cf22402bb2cb/emb"></script>
 		</div>
 		<!-- property details -->
         <div class="row cb-custom-card mb-3">

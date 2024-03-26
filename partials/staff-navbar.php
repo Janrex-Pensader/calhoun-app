@@ -27,15 +27,31 @@
         <li id="nav-dashboard" class="nav-item">
           <a class="nav-link" href="./index.php?cbResetParam=1"><i class="fas fa-address-card"></i> Dashboard</a>
         </li>
-        <!-- <li class="nav-item dropdown d-none" id="nav-manage-contacts">
+        <li class="nav-item dropdown d-none" id="nav-manage-contacts">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-address-card"></i> Manage Contacts
+            <i class="fas fa-address-card"></i> Reports
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./manage-contacts.html?cbResetParam=1">All Contacts</a>
-            <a class="dropdown-item" href="./add-contact.html">Add New Contact</a>
+            <h6 class="dropdown-header">Eviction Reports</h6>
+            <a class="dropdown-item" href="#">Court Summary Report</a>
+            <a class="dropdown-item" href="#">Active Cases Report</a>
+            <a class="dropdown-item" href="#">Case Stage Report</a>
+            <a class="dropdown-item" href="#">Eviction Summary Report</a>
+            <a class="dropdown-item" href="#">Closed Case Report</a>
+            <a class="dropdown-item" href="#">Case By Plan Report</a>
+            <a class="dropdown-item" href="#">Cases By Account</a>
+            <a class="dropdown-item" href="#">Virtual Folder Check Report</a>
+            <a class="dropdown-item" href="#">Virtual Folder Check Report</a>
+            <a class="dropdown-item" href="#">THO Pending Vacate</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Property Management Reports</h6>
+            <a class="dropdown-item" href="#">Message Summary Report</a>
+            <a class="dropdown-item" href="#">Rental License Expiration Report</a>
+            <a class="dropdown-item" href="#">Current Key Report</a>
+            <a class="dropdown-item" href="#">Upcoming Property Inspection Report</a>
+            <a class="dropdown-item" href="#">Active managed Properties</a>
           </div>
-        </li> -->
+        </li>
         <li id="nav-owners" class="nav-item">
           <a class="nav-link" href="./owners.php?cbResetParam=1"><i class="fas fa-users"></i> Owners</a>
         </li>
