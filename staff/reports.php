@@ -29,17 +29,32 @@
 			</ol>
 		</nav>
 
-        <div class="cb-custom-card mb-3">
-			<div class="row">
-				<div class="col-lg-12 mx-auto">
-				</div>
+		
+		<div class="row ">
+			<div class="col-lg-6 cb-custom-card mr-2">
+				<span class="h5 mb-3">Eviction Reports</span>
+				<ul>
+					<li><a href="#">Court Summary Report</a></li>
+					<li><a href="#">Active Cases Report</a></li>
+					<li><a href="#">Case Stage Report</a></li>
+					<li><a href="#">Eviction Summary Report</a></li>
+					<li><a href="#">Closed Case Report</a></li>
+					<li><a href="#">Case By Plan Report</a></li>
+					<li><a href="#">Cases By Account</a></li>
+					<li><a href="#">Virtual Folder Check Report</a></li>
+					<li><a href="#">Virtual Folder Check Report</a></li>
+					<li><a href="#">THO Pending Vacate</a></li>
+				</ul>
 			</div>
-		</div>
-
-		<div class="cb-custom-card">
-			<div class="row">
-				<div class="col-lg-12 mx-auto">
-				</div>
+			<div class="col cb-custom-card ml-2">
+				<span class="h5 mb-3">Property Management Reports</span>
+				<ul>
+					<li><a href="#">Message Summary Report</a></li>
+					<li><a href="#">Rental License Expiration Report</a></li>
+					<li><a href="#">Current Key Report</a></li>
+					<li><a href="#">Upcoming Property Inspection Report</a></li>
+					<li><a href="#">Active managed Properties</a></li>
+				</ul>
 			</div>
 		</div>
 
