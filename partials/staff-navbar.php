@@ -27,31 +27,6 @@
         <li id="nav-dashboard" class="nav-item">
           <a class="nav-link" href="./index.php?cbResetParam=1"><i class="fas fa-address-card"></i> Dashboard</a>
         </li>
-        <li class="nav-item dropdown d-none" id="nav-manage-contacts">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-address-card"></i> Reports
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <h6 class="dropdown-header">Eviction Reports</h6>
-            <a class="dropdown-item" href="#">Court Summary Report</a>
-            <a class="dropdown-item" href="#">Active Cases Report</a>
-            <a class="dropdown-item" href="#">Case Stage Report</a>
-            <a class="dropdown-item" href="#">Eviction Summary Report</a>
-            <a class="dropdown-item" href="#">Closed Case Report</a>
-            <a class="dropdown-item" href="#">Case By Plan Report</a>
-            <a class="dropdown-item" href="#">Cases By Account</a>
-            <a class="dropdown-item" href="#">Virtual Folder Check Report</a>
-            <a class="dropdown-item" href="#">Virtual Folder Check Report</a>
-            <a class="dropdown-item" href="#">THO Pending Vacate</a>
-            <div class="dropdown-divider"></div>
-            <h6 class="dropdown-header">Property Management Reports</h6>
-            <a class="dropdown-item" href="#">Message Summary Report</a>
-            <a class="dropdown-item" href="#">Rental License Expiration Report</a>
-            <a class="dropdown-item" href="#">Current Key Report</a>
-            <a class="dropdown-item" href="#">Upcoming Property Inspection Report</a>
-            <a class="dropdown-item" href="#">Active managed Properties</a>
-          </div>
-        </li>
         <li id="nav-owners" class="nav-item">
           <a class="nav-link" href="./owners.php?cbResetParam=1"><i class="fas fa-users"></i> Owners</a>
         </li>
@@ -75,6 +50,30 @@
         </li>
         <li id="nav-reports" class="nav-item">
           <a class="nav-link" href="./reports.php?cbResetParam=1"><i class="fas fa-clipboard-list"></i> Reports</a>
+        </li>
+        <li class="nav-item dropdown " id="nav-reports">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-clipboard-list"></i> Reports
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <h6 class="dropdown-header">Eviction Reports</h6>
+            <a id="nav_court_summary_report" class="dropdown-item" href="./court_summary_report.php">Court Summary Report</a>
+            <a id="nav_active_cases_report" class="dropdown-item" href="./active_cases_report.php">Active Cases Report</a>
+            <a id="nav_case_stage_report" class="dropdown-item" href="./case_stage_report.php">Case Stage Report</a>
+            <a id="nav_eviction_summary_report" class="dropdown-item" href="./eviction_summary_report.php">Eviction Summary Report</a>
+            <a id="nav_closed_case_report" class="dropdown-item" href="./closed_case_report.php">Closed Case Report</a>
+            <a id="nav_case_by_plan_report" class="dropdown-item" href="./case_by_plan_report.php">Case By Plan Report</a>
+            <a id="nav_cases_by_account" class="dropdown-item" href="./cases_by_account.php">Cases By Account</a>
+            <a id="nav_virtual_folder_check_report" class="dropdown-item" href="./virtual_folder_check_report.php">Virtual Folder Check Report</a>
+            <a id="nav_tho_pending_vacate" class="dropdown-item" href="./tho_pending_vacate.php">THO Pending Vacate</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Property Management Reports</h6>
+            <a id="nav_message_summary_report" class="dropdown-item" href="./message_summary_report.php">Message Summary Report</a>
+            <a id="nav_rental_license_expiration_report" class="dropdown-item" href="./rental_license_expiration_report.php">Rental License Expiration Report</a>
+            <a id="nav_current_key_report" class="dropdown-item" href="./current_key_report.php">Current Key Report</a>
+            <a id="nav_upcoming_property_inspection_report" class="dropdown-item" href="./active_managed_properties.php">Upcoming Property Inspection Report</a>
+            <a id="nav_active_managed_properties" class="dropdown-item" href="./upcoming_property_inspection_report.php">Active managed Properties</a>
+          </div>
         </li>
       </ul>
     </div>
