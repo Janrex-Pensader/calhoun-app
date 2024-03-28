@@ -64,6 +64,42 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row mb-3">
+                    <div class="col cb-custom-card mx-1">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p class="h6">Failure to Pay Cases</p>
+                                <p id="ftp-count"class="h4 mb-0">0</p>
+                            </div>
+                            <div class="col text-center">
+                                <i class="fas fa-file dashboard-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col cb-custom-card mx-1">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p class="h6">Wrongful Detainers Cases</p>
+                                <p id="wdc-count" class="h4 mb-0">0</p>
+                            </div>
+                            <div class="col text-center">
+                                <i class="fas fa-home dashboard-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col cb-custom-card mx-1">
+                    <div class="row">
+                            <div class="col-sm-7">
+                                <p class="h6">Breach of Leases Cases</p>
+                                <p id="bol-count" class="h4 mb-0">0</p>
+                            </div>
+                            <div class="col text-center">
+                                <i class="fas fa-users dashboard-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col cb-custom-card mx-1">
 
