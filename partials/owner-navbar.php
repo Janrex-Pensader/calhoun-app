@@ -1,7 +1,5 @@
 <!-- Hidden DP -->
-<div class="d-none">
-        <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080001d68ca8f2130479fa701/emb"></script>
-</div>
+
 
 <div class="row px-13" style="background-color: #2A2F42 !important">
     <a class="navbar-brand" href="./"><img src="https://marylandevictionsonline.com/wp-content/uploads/2020/07/maryland-evictions-onlineL.png" height=45> Maryland Eviction Online</a>

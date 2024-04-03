@@ -76,7 +76,7 @@
 			<div class="card-body text-center">
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000afdc9957b7eb4ccfa4ae/emb"></script>
 				<hr>
-				<a href="./owner-reset-password.php"><i class="fas fa-lock mr-2"></i>forgot your password?</a>
+				<a href="./reset-password.php"><i class="fas fa-lock mr-2"></i>forgot your password?</a>
 			</div>
 		</div>
 	</main>

@@ -1,8 +1,3 @@
-<!-- Hidden DP -->
-<div class="d-none">
-  <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000c536b61d4e924b49966d/emb"></script>
-</div>
-
 <div class="row px-13" style="background-color: #2A2F42 !important">
     <a class="navbar-brand" href="./"><img src="https://marylandevictionsonline.com/wp-content/uploads/2020/07/maryland-evictions-onlineL.png" height=45> Maryland Eviction Online</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">

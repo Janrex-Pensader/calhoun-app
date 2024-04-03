@@ -19,7 +19,7 @@
 
     <script>$('#nav-dashboard').addClass('active');</script>
 
-    <main role="main" class="container-fluid mb-5 w-80">
+    <main role="main" class="container-fluid cb-container-lg mb-5">
 
         <div class="row mt-rem-5">
             <div class="col-lg-4 px-1">
@@ -66,7 +66,7 @@
                 </div>
                 <div class="row">
                     <div class="col cb-custom-card mx-1">
-                        <button type="button" class="btn btn-primary" style="width: fit-content !important" onclick="openModal('Add Case','72ddbd34090c4bbfb924','')"><i class="fas fa-plus mr-2"></i>Add Case</button>
+                        <button type="button" class="btn btn-primary ml-auto w-fit-content" onclick="openModal('Add Case','72ddbd34090c4bbfb924','')"><i class="fas fa-plus mr-2"></i>Add Case</button>
                     </div>
                 </div>
             </div>

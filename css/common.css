@@ -1,8 +1,12 @@
 /* Common/Bootstrap overrides */
 
-
+#cb-modal-body .cbSubmitButtonContainer,
+#cb-modal-body .cbUpdateButtonContainer{
+  display: none !important;
+}
+ 
 .w-fit-content{
-width: fit-content;
+width: fit-content !important;
 }
 .row{
   margin-left: 0px !important;
@@ -49,6 +53,10 @@ a { color:#174478; }
   background-color: #2A2F42  !important;
 }
 
+button[name='searchBtn']{ margin-top: 35px;}
+button[name='cancelBtn']{ height: 40px; text-transform: uppercase; vertical-align: top;}
+
+
 main {
   padding-top: 4.5rem;
 }
@@ -72,6 +80,8 @@ form > div {
 .text-mono { font-family:Lucida Console, Monaco, monospace; }
 
 /* CB Specific */
+
+.cbFormSelect, .cbFormTextField, button[name='searchBtn']{ height: 35px;}
 
 .cb-login-cont { padding:15px 0 0; margin:0 auto; width:267px; }
 .cb-login-cont input { width:100%; }
@@ -311,7 +321,7 @@ form > div {
 }
 
 .cb-container-lg {
-    width: 1250px;
+    width: 1550px;
 }
 
 .cb-container-md {

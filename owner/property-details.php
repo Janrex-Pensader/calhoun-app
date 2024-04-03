@@ -4,6 +4,12 @@
 <head>
 	<?php include '../partials/header.php';?>
 	<title>Owner: Properties</title>
+	<style>
+		form[action*='ded080000bd836cb1714478d86ea'] tr.cbResultSetDataRow td:nth-child(1),
+		form[action*='ded080000bd836cb1714478d86ea'] tr.cbResultSetTableHeader th:nth-child(1){
+			display:none !important;
+		}
+	</style>
 </head>
 
 <body>
@@ -29,14 +35,13 @@
                 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003547b79c737341e88afa/emb"></script>
 			</div>
             <!-- Tenant list -->
-            <div class="col ml-1 cb-custom-card" style="height: 600px !important; overflow-y:scroll">
+            <div class="col ml-1 cb-custom-card" style="height: 625px !important; overflow-y:scroll">
                 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080004a2be9ec0cab4eb6ad80/emb"></script>
 			</div>
 		</div>
         <div class="row mb-3">
             <!-- Cases -->
 			<div class="col cb-custom-card">
-                
                 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080000bd836cb1714478d86ea/emb"></script>
 			</div>
 		</div>
