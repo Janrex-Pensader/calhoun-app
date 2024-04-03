@@ -31,7 +31,7 @@
     <script src="./js/lib/Inputmask-5.x/dist/jquery.inputmask.min.js"></script>
     <!-- ./Assets -->
 
-	<title>MEO: Owner Login</title>
+	<title>MEO: Login</title>
 	<style>
 		section{
 			width: 100% !important
@@ -41,7 +41,7 @@
 
 <body>
 
-	<div class="text-right row p-2" style="background-color: #fff">
+	<!-- <div class="text-right row p-2" style="background-color: #fff">
 		<div class="dropdown col-lg-12">
 			<button class="btn btn-primary dropdown-toggle ml-2" style="width: fit-content" type="button" data-toggle="dropdown" aria-expanded="false">
 				Client
@@ -53,7 +53,7 @@
 				<a class="dropdown-item" href="#" onclick="redirectLogin('attorney')">Attorney</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<main role="main" class="container-fluid col-lg-3 mt-rem-5">
 
