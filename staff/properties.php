@@ -29,14 +29,7 @@
 			</ol>
 		</nav>
 
-        <div class="cb-custom-card mb-3">
-			<div class="row">
-				<div class="col-lg-12 mx-auto">
-				</div>
-			</div>
-		</div>
-
-		<div class="cb-custom-card">
+		<div class="cb-custom-card mb-3">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
 					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000a619d2b2b48549269abd/emb"></script>

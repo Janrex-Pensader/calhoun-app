@@ -83,41 +83,6 @@
     <!-- /.container -->
     <script>
         
-        document.addEventListener('DataPageReady', function (event) {
-            if (event.detail.appKey == 'ded080001d68ca8f2130479fa701') {
-
-                //get the active case count
-                var caseCalc = document.querySelector("input[name='cbParamVirtual1']");
-                caseCalc.addEventListener("change",
-                    function(){
-                        var caseCount = caseCalc.value;
-                        document.querySelector("p[id='case-count']").innerHTML = caseCount;
-                        console.log(caseCount);
-                    }
-                );
-
-                //get the property count
-                var propertCalc = document.querySelector("input[name='cbParamVirtual2']");
-                propertCalc.addEventListener("change",
-                    function(){
-                        var propertyCount = propertCalc.value;
-                        document.querySelector("p[id='property-count']").innerHTML = propertyCount;
-                        console.log(propertyCount);
-                    }
-                );
-
-                //get the tenant count
-                var tenantCalc = document.querySelector("input[name='cbParamVirtual3']");
-                tenantCalc.addEventListener("change",
-                    function(){
-                        var tenantCount = tenantCalc.value;
-                        document.querySelector("p[id='tenant-count']").innerHTML = tenantCount;
-                        console.log(tenantCount);
-                    }
-                );
-            }
-        });
-        
     </script>
 </body>
 

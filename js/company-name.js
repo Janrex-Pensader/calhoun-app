@@ -29,7 +29,27 @@ document.addEventListener('DataPageReady', function (event)
                 document.querySelector("input[name*=RecordCompany_Name]").value = first_name+' '+last_name;
             }
         }
+
+        var checkboxPMEmail = $("input[name*='RecordHas_Property_Manager']");
+        var checkedPMEmail = $("input[name*='RecordHas_Property_Manager'][checked='checked']");
+
+        hidePMEmail(checkedPMEmail.val());
+
+        checkboxPMEmail.change(function(e) {
+            hidePMEmail($(this).val());
+        });
+
+        function hidePMEmail(value){
+            if(value == 2){
+                document.querySelector("input[id*=RecordPM_Email]").parentNode.parentNode.style.display = 'none';
+            }
+            else{
+                document.querySelector("input[id*=RecordPM_Email]").parentNode.parentNode.style.display = 'block';
+            }
+        }
     }
 
     
 });
+
+

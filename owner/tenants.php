@@ -17,14 +17,7 @@
 	<main role="main" class="container-fluid cb-container-lg mb-5">
 
 		<!-- Contents -->
-
-		<nav class="mt-rem-5" aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-users"></i> Tenants</li>
-			</ol>
-		</nav>
-
-		<div class="cb-custom-card">
+		<div class="cb-custom-card mt-rem-5">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
 					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080007415be8bab8e4563ad16/emb"></script>

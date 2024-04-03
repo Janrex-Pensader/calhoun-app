@@ -14,7 +14,7 @@
 
 	<script>$('#nav-profile').addClass('active');</script>
 
-	<main role="main" class="container-fluid cb-container-md">
+	<main role="main" class="container-fluid cb-container-md mb-5">
 
 		<nav class="mt-rem-5" aria-label="breadcrumb">
 			<ol class="breadcrumb">

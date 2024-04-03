@@ -6,7 +6,7 @@
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #fff">
-          <img id="nav-user-image" src="../img/default_user_image.png" alt="../img/default_user_image.png" style="width:35px; border-radius:50%;">
+          <img id="nav-user-image" src="../img/default_user_image.png" style="width:35px; border-radius:50%;">
           <span class="ml-1"id="nav-user-name"></span>
         </a>
         <div class="dropdown-menu">
