@@ -67,6 +67,10 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="row cb-custom-card mb-3"> 
+                    <button type="button" class="btn btn-primary w-fit-content ml-auto" onclick="openModal('Add Case','72ddbd34090c4bbfb924','?Case_Type_ID=1','modal-md')"><i class="fas fa-plus mr-2"></i>Add Case</button>
+                </div>
             </div>
         </div>
 
