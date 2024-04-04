@@ -29,13 +29,6 @@
 			</ol>
 		</nav>
 
-        <div class="cb-custom-card mb-3">
-			<div class="row">
-				<div class="col-lg-12 mx-auto">
-				</div>
-			</div>
-		</div>
-
 		<div class="cb-custom-card">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">

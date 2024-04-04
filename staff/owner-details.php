@@ -9,14 +9,14 @@
             width: 1550px !important;
         }
 
-		form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetDataRow td:nth-child(1),
+		/* form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetDataRow td:nth-child(1),
 		form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetTableHeader th:nth-child(1),
 		form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetDataRow td:nth-child(2),
 		form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetTableHeader th:nth-child(2),
 		form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetDataRow td:nth-child(3),
 		form[action*='ded08000a619d2b2b48549269abd'] tr.cbResultSetTableHeader th:nth-child(3){
-			display: none !important
-		}
+			//display: none !important
+		} */
     </style>
 </head>
 
@@ -45,13 +45,11 @@
 		</div>
 		<!-- property details -->
         <div class="row cb-custom-card mb-3">
-			<span class="h4 mb-3">Properties</span>
-			<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000a619d2b2b48549269abd/emb?Case_Status_ID=1"></script>
+			<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000148e07297f5d45609fb9/emb"></script>
 		</div>
 
 		<div class="row cb-custom-card mb-3">
-			<span class="h4 mb-3">Cases</span>
-			<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000d78d428287144ab6a2c2/emb?Case_Status_ID=1"></script>
+			<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000b40eea115b4c408fab01/emb"></script>
 		</div>
 
 

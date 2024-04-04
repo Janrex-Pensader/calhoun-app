@@ -4,7 +4,12 @@
 #cb-modal-body .cbUpdateButtonContainer{
   display: none !important;
 }
- 
+
+
+.text-decoration-none{
+  text-decoration: none !important;
+  color: black !important;
+}
 .w-fit-content{
 width: fit-content !important;
 }
