@@ -38,6 +38,12 @@
 		</div>
 
 	</main><!-- /.container -->
+
+	<!-- modal container -->
+	<div id="footer">
+            <script>load_modal()</script>
+        </div>
+    <!-- ./modal container -->
 </body>
 
 </html>
