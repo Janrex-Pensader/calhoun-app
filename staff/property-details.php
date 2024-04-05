@@ -31,12 +31,14 @@
 
         <div class="row mb-3" >
             <!-- edit properties -->
-			<div class="col-md-6 mr-2 cb-custom-card">
+			<div class="col cb-custom-card">
                 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003547b79c737341e88afa/emb"></script>
 			</div>
+		</div>
+		<div class="row mb-3">
             <!-- Tenant list -->
-            <div class="col ml-1 cb-custom-card" style="height: 625px !important; overflow-y:scroll">
-                <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080004a2be9ec0cab4eb6ad80/emb"></script>
+			<div class="col cb-custom-card">
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080004a2be9ec0cab4eb6ad80/emb"></script>
 			</div>
 		</div>
         <div class="row mb-3">
