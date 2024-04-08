@@ -40,11 +40,18 @@
         <li id="nav-communications" class="nav-item">
           <a class="nav-link" href="./communications.php?cbResetParam=1"><i class="fas fa-phone"></i> Communications</a>
         </li>
-        <li id="nav-settings" class="nav-item">
-          <a class="nav-link" href="./settings.php?cbResetParam=1"><i class="fas fa-cogs"></i> Settings</a>
-        </li>
-        <li id="nav-reports" class="nav-item">
-          <a class="nav-link" href="./reports.php?cbResetParam=1"><i class="fas fa-clipboard-list"></i> Reports</a>
+
+        <li class="nav-item dropdown " id="nav-settings">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-cogs"></i> Settings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a id="nav_user_screen" class="dropdown-item d-none" href="./user-screen.php">Manager Users</a>
+            <a id="" class="dropdown-item" href="#">Export Data</a>
+            <a id="" class="dropdown-item" href="#">Referance Tables</a>
+            <a id="" class="dropdown-item" href="#">Audit Log</a>
+            <a id="" class="dropdown-item" href="#">Backup</a>
+          </div>
         </li>
         <li class="nav-item dropdown " id="nav-reports">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

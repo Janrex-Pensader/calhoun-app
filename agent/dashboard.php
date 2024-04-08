@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../partials/header.php';?>
-    <title>Attorney: Dashboard</title>
+    <title>Agent: Dashboard</title>
     <style>
         .dashboard-icon{
             font-size: 50px
