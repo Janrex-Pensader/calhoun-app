@@ -3,13 +3,13 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Owner: Properties</title>
+	<title>Property Manager: Properties</title>
 </head>
 
 <body>
 
 	<div class="navbar-expand-lg navbar-light bg-light fixed-top" id="site-navbar">
-        <?php include '../partials/owner-navbar.php';?>
+        <?php include '../partials/property-manager-navbar.php';?>
     </div>
 
 	<script>$('#nav-properties').addClass('active');</script>

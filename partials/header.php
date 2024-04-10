@@ -21,12 +21,13 @@
 <script src="../js/moment.min.js"></script>
 <script src="../js/moment-timezone-with-data.min.js"></script>
 <script src="../js/jquery.maskedinput.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- Local JS -->
 <script src="../js/common.js" type="text/javascript"></script>
 <script src="../js/jquery.datetimepicker.full.min.js" type="text/javascript"></script>
 <script src="../js/lib/Inputmask-5.x/dist/jquery.inputmask.min.js"></script>
 <script src="../js/company-name.js" type="text/javascript"></script>
-<script src="../js/case-name.js" type="text/javascript"></script>
+<script src="../js/case.js" type="text/javascript"></script>
 <!-- ./Assets -->
 
 <div class="d-none">

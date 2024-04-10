@@ -4,12 +4,7 @@
 <head>
 	<?php include '../partials/header.php';?>
 	<title>Owner: Properties</title>
-	<style>
-		form[action*='ded080000bd836cb1714478d86ea'] tr.cbResultSetDataRow td:nth-child(1),
-		form[action*='ded080000bd836cb1714478d86ea'] tr.cbResultSetTableHeader th:nth-child(1){
-			display:none !important;
-		}
-	</style>
+	
 </head>
 
 <body>
