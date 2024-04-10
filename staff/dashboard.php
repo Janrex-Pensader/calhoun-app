@@ -111,9 +111,25 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col  p-0 mx-3">
+                    <div class="col cb-custom-card p-0 mx-3">
+                        <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Type_ID=2">
+                            <div class=" h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <span class="card-title h5">Tenant Holding Over</span>
+                                    <div id="tho-count" class="h1 mb-0 mt-auto">0</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col p-0">
+                    <div class="col cb-custom-card p-0">
+                        <a class="text-decoration-none cb-btn-filter" href="#">
+                            <div class=" h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <span class="card-title h5">Pending Cases</span>
+                                    <div id="pc-count" class="h1 mb-0 mt-auto">0</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

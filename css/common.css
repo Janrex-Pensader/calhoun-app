@@ -6,6 +6,10 @@
 }
 
 
+.cbSearchButtonContainer {
+  display: none !important;
+}
+
 .text-decoration-none{
   text-decoration: none !important;
   color: black !important;

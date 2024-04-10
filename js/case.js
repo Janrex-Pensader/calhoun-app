@@ -3,7 +3,6 @@ document.addEventListener('DataPageReady', function (event) {
         event.detail.appKey.includes('2005e4566c8f4c93a743') || //staff - add case with owner and proerty dropdown
         event.detail.appKey.includes('19f1679b90d6413a9a2a')//staff - add case with owner and proerty dropdown
     ) {
-        
         onchangeGovernmentSubsidized();
         var caseNameCont = document.querySelector("input[id*='cbParamVirtual1']");
         var property = document.querySelector("[id*='RecordProperty_ID']");
@@ -27,12 +26,12 @@ document.addEventListener('DataPageReady', function (event) {
 
     function onchangeGovernmentSubsidized(){
 
-        $('input[name*=RecordGovernment_Subsidized]').change(function(){hidetenantsPortion()});
+        $('input[name*=RecordIs_Government_Subsidized]').change(function(){hidetenantsPortion()});
     }
 
     function hidetenantsPortion(){
         
-        var value = $( 'input[name*=RecordGovernment_Subsidized]:checked' ).val();
+        var value = $( 'input[name*=RecordIs_Government_Subsidized]:checked' ).val();
         console.log(value);
         if(value == 1) {
             document.querySelector("[id*='RecordTenants_Portion']").parentNode.parentNode.style.display = 'block'
@@ -51,10 +50,10 @@ function addCase(tenantCount){
         openModal('Add Case','49fb1db99f9449919f63','?Case_Type_ID=1','modal-md');
     }else{ //open swal and add tenant modal
         Swal.fire({
-            title: "No active tenants",
+            title: "No active tenants!",
             text: "Add an active tenant to proceed.",
             icon: "warning",
-            confirmButtonColor: "#004AAA",
+            confirmButtonColor: "#2A2F42",
             confirmButtonText: "Okay"
         }).then((result) => {
             if (result.isConfirmed) {
