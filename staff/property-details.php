@@ -4,7 +4,6 @@
 <head>
 	<?php include '../partials/header.php';?>
 	<title>Staff: Properties</title>
-	
 </head>
 
 <body>
