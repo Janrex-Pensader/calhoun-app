@@ -1,5 +1,8 @@
 /* Common/Bootstrap overrides */
 
+head, body{
+  font-family: lato;
+}
 a{
   color: #2A2F42;
 }
@@ -44,9 +47,9 @@ width: fit-content !important;
   margin-top: 5rem!important;
 }
 
-.px-13{
-  padding-left: 13rem !important;
-  padding-right: 13rem !important;
+.px-12{
+  padding-left: 12rem !important;
+  padding-right: 12rem !important;
 }
 a { color:#174478; }
 .text-primary { color:#2A2F42  !important; }
@@ -111,6 +114,10 @@ form > div {
 .text-mono { font-family:Lucida Console, Monaco, monospace; }
 
 /* CB Specific */
+
+.cbUpdateButton:hover{
+  background-color: #3E4561  !important;
+}
 
 .cbFormSelect, .cbFormTextField, button[name='searchBtn']{ height: 35px;}
 

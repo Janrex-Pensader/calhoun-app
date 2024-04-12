@@ -1,4 +1,4 @@
-<div class="row px-13" style="background-color: #2A2F42 !important">
+<div class="row px-12" style="background-color: #2A2F42 !important">
   <a class="navbar-brand" href="./"><img src="../img/logo.png" height=45 class="mr-3"> Maryland Evictions Online</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -14,9 +14,9 @@
         <a class="dropdown-item" href="https://c1abn983.caspio.com/folderlogout"><i class="fas fa-sign-out-alt"></i> Log Out</a>
       </div>
     </li>
-  <ul>
+  </ul>
 </div>
-<div class="row px-13">
+<div class="row px-12">
   <div class="collapse navbar-collapse" id="navbar">
     <ul class="navbar-nav">
       <li id="nav-properties" class="nav-item">

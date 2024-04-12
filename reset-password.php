@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="./css/fa.all.css">
     <!-- Local CSS -->
     <link rel="stylesheet" href="./css/common.css" media="screen" title="no title" charset="utf-8" />
-    <link rel="stylesheet" href="./css/jquery.datetimepicker.min.css" media="screen" title="no title"
-        charset="utf-8" />
+    <link rel="stylesheet" href="./css/jquery.datetimepicker.min.css" media="screen" title="no title" charset="utf-8" />
+	<!-- lato font CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- CDN JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -21,7 +24,7 @@
     <script src="./js/jquery-3.3.1.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <!-- CDN Extended JS -->
+	<!-- CDN Extended JS -->
     <script src="./js/moment.min.js"></script>
     <script src="./js/moment-timezone-with-data.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
