@@ -5,7 +5,7 @@
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/x-icon" href="./img/index.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.png" />
     <!-- Assets -->
     <!-- CDN Core CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -41,24 +41,10 @@
 
 <body>
 
-	<!-- <div class="text-right row p-2" style="background-color: #fff">
-		<div class="dropdown col-lg-12">
-			<button class="btn btn-primary dropdown-toggle ml-2" style="width: fit-content" type="button" data-toggle="dropdown" aria-expanded="false">
-				Client
-			</button>
-			LOGIN
-			<div class="dropdown-menu">
-				<a class="dropdown-item active" href="#" onclick="redirectLogin('owner')">Client</a>
-				<a class="dropdown-item" href="#" onclick="redirectLogin('staff')">Staff</a>
-				<a class="dropdown-item" href="#" onclick="redirectLogin('attorney')">Attorney</a>
-			</div>
-		</div>
-	</div> -->
-
 	<main role="main" class="container-fluid col-lg-3 mt-rem-5">
 
 		<div class="card">
-			<div class="card-header" style="background-color: #D5DCF9; color: #677FE6">
+			<div class="card-header" style="background-color: #2A2F42; color: #fff">
 				<div class="row">
 					<div class="col-md-8 m-auto">
 						<div class="row">
@@ -69,14 +55,14 @@
 						</div>
 					</div>
 					<div class="col px-0 text-right">
-						<img src="./img/logo_2.png" width="100px"/>
+						<img src="./img/logo.png" width="100px"/>
 					</div>
 				</div>
 			</div>
 			<div class="card-body text-center">
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000afdc9957b7eb4ccfa4ae/emb"></script>
 				<hr>
-				<a href="./reset-password.php"><i class="fas fa-lock mr-2"></i>forgot your password?</a>
+				<a href="./reset-password.php"><i class="fas fa-lock mr-2"></i>Forgot your password?</a>
 			</div>
 		</div>
 	</main>

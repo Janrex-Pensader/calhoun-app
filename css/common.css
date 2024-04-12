@@ -1,10 +1,22 @@
 /* Common/Bootstrap overrides */
 
+a{
+  color: #2A2F42;
+}
+
+a:hover{
+  color: #3E4561;
+}
+
 #cb-modal-body .cbSubmitButtonContainer,
 #cb-modal-body .cbUpdateButtonContainer{
   display: none !important;
 }
-
+.cbSubmitButton:hover
+{
+	background-color: #3E4561 !important;
+	border-color: #3E4561 !important;
+}
 
 .cbSearchButtonContainer {
   display: none !important;
@@ -46,7 +58,11 @@ a { color:#174478; }
 
 .btn-primary, 
 .nav-pills .nav-link.active { background-color:#2A2F42 ; border-color:#2A2F42 ; color: #fff;}
-.btn-primary:hover { background-color:#305d91; color: #fff;}
+.btn-primary:hover { 
+  background-color:#3E4561; 
+  border-color: #3E4561;
+  color: #fff;
+}
 
 .btn{
   width: 180px;
