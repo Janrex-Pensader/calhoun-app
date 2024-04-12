@@ -26,7 +26,6 @@
 		<div class="cb-custom-card">
 			<div class="row">
 				<div class="col-sm-6 mx-auto">
-					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000ffb5832772fb47fabb2e/emb"></script>
 				</div>
 			</div>
 		</div>

@@ -1,23 +1,4 @@
 document.addEventListener('DataPageReady', function (event) {
-    // if (event.detail.appKey.includes('72ddbd34090c4bbfb924') || //Owner - add case with property dropdown
-    //     event.detail.appKey.includes('2005e4566c8f4c93a743') || //staff - add case with owner and property dropdown
-    //     event.detail.appKey.includes('19f1679b90d6413a9a2a')//shared - add case in property details
-    // ) {
-    //     onchangeGovernmentSubsidized();
-    //     var caseNameCont = document.querySelector("input[id*='cbParamVirtual1']");
-    //     var property = document.querySelector("[id*='RecordProperty_ID']");
-    //     var caseName = '';
-
-    //     caseNameCont.addEventListener("change", function(){
-            
-    //         caseName = caseNameCont.value;
-    //         console.log("value: "+caseName);
-    //         if(property.value != ''){
-    //             document.querySelector("input[name*='RecordCase_Name']").value = caseName;
-    //         }
-            
-    //     });
-    // }
     
     if (event.detail.appKey.includes('0f21b6db76e345d0b5a5') //shared - case details page
         || event.detail.appKey.includes('19f1679b90d6413a9a2a') //shared - add case
@@ -46,7 +27,7 @@ document.addEventListener('DataPageReady', function (event) {
 
 });
 
-function addCase(tenantCount){
+function addCase(tenantCount){ //function for adding case from the properties details page
     console.log(tenantCount);
     if(tenantCount > 0){ //open case type picker
         openModal('Add Case','49fb1db99f9449919f63','?Case_Type_ID=1','modal-md');
@@ -65,8 +46,7 @@ function addCase(tenantCount){
     }
 }
 
-
-function addCaseStaff(tenantCount, CaseName, CaseTye, propertyGUID){
+function addCaseStaff(tenantCount, CaseName, CaseTye, propertyGUID){ //function to add case outside property details page
     console.log(tenantCount+' '+CaseName+' '+CaseTye);
     if(tenantCount > 0){ //open case type picker
         openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseTye,'modal-lg');

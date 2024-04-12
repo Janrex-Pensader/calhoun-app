@@ -3,13 +3,13 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Staff: Profile</title>
+	<title>PM: Profile</title>
 </head>
 
 <body>
 	<!--navbar container -->
 	<div class="navbar-expand-lg navbar-light bg-light fixed-top" id="site-navbar">
-        <?php include '../partials/staff-navbar.php';?>
+        <?php include '../partials/property-manager-navbar.php';?>
     </div>
 
 	<script>$('#nav-profile').addClass('active');</script>

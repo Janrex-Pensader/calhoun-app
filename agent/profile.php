@@ -3,7 +3,7 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Staff: Profile</title>
+	<title>Agent: Profile</title>
 </head>
 
 <body>
