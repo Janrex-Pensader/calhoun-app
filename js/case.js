@@ -46,27 +46,26 @@ function addCase(tenantCount){ //function for adding case from the properties de
     }
 }
 
-function addCaseStaff(tenantCount, CaseName, CaseTye, propertyGUID){ //function to add case outside property details page
-    console.log(tenantCount+' '+CaseName+' '+CaseTye);
+function addCaseStaff(tenantCount, CaseName, CaseType, propertyGUID){ //function to add case outside property details page
+    console.log(tenantCount+' '+CaseName+' '+CaseType);
     if(tenantCount > 0){ //open case type picker
 
-        if(CaseTye = 1 ) {// failure to pay
-            openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseTye+'&Is_Government_Subsidized=2','modal-lg');
+        if(CaseType == 1 || CaseType == 4 || CaseType == 2) {// failure to pay or Breach of Lease
+            openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
         }
-        if(CaseTye = 3 ) {// wrongful detainer
-            openModal('Add Case','0c7131b3cbf64974bc80','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseTye+'&Is_Government_Subsidized=2','modal-lg');
+        else if(CaseType == 3 ) {// wrongful detainer
+            openModal('Add Case','0c7131b3cbf64974bc80','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
         }
-        }else{ //open swal and add tenant modal
-        Swal.fire({
-            title: "No active tenants!",
-            text: "Add an active tenant to the selected property to proceed.",
-            icon: "warning",
-            confirmButtonColor: "#2A2F42",
-            confirmButtonText: "Okay"
-        }).then((result) => {
-            if (result.isConfirmed) {
-                $('#cb-modal').modal('hide');
-            }
-        });
+        else if(CaseType == 6 ) {// Eviction Only
+            openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
+        }
+        else{
+            openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
+        }
     }
 }
+
+
+
+eviction
+tenantCountsm
