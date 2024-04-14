@@ -17,7 +17,12 @@
 	<main role="main" class="container-fluid cb-container-lg mb-5">
 
 		<!-- Contents -->
-		<div class="cb-custom-card mt-rem-5">
+
+		<nav class="mt-rem-5 mb-3" aria-label="breadcrumb">
+			<span class="h4">Tenant List</span>
+		</nav>
+
+		<div class="cb-custom-card">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
 					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080007415be8bab8e4563ad16/emb"></script>

@@ -49,8 +49,14 @@ function addCase(tenantCount){ //function for adding case from the properties de
 function addCaseStaff(tenantCount, CaseName, CaseTye, propertyGUID){ //function to add case outside property details page
     console.log(tenantCount+' '+CaseName+' '+CaseTye);
     if(tenantCount > 0){ //open case type picker
-        openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseTye,'modal-lg');
-    }else{ //open swal and add tenant modal
+
+        if(CaseTye = 1 ) {// failure to pay
+            openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseTye+'&Is_Government_Subsidized=2','modal-lg');
+        }
+        if(CaseTye = 3 ) {// wrongful detainer
+            openModal('Add Case','0c7131b3cbf64974bc80','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseTye+'&Is_Government_Subsidized=2','modal-lg');
+        }
+        }else{ //open swal and add tenant modal
         Swal.fire({
             title: "No active tenants!",
             text: "Add an active tenant to the selected property to proceed.",

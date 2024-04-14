@@ -37,7 +37,17 @@
 
             <div class="col pl-3">
                 <div class="row mb-3"> 
-                    <div class="col cb-custom-card p-0">
+                <div class="col cb-custom-card p-0">
+                        <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Stage_ID=19">
+                            <div class=" h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <span class="card-title h5">Pending Cases</span>
+                                    <div id="pc-count" class="h1 mb-0 mt-auto">0</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col cb-custom-card p-0 mx-3">
                         <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Status_ID=1">
                             <div class="h-100">
                                 <div class="card-body d-flex flex-column">
@@ -47,7 +57,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col cb-custom-card p-0 mx-3">
+                    <div class="col cb-custom-card p-0">
                         <a class="text-decoration-none cb-btn-filter" href="./properties.php?Property_Status=1">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
@@ -57,6 +67,8 @@
                             </div>
                         </a>
                     </div>
+                </div>
+                <div class="row mb-3"> 
                     <div class="col cb-custom-card p-0">
                         <a class="text-decoration-none cb-btn-filter" href="./tenants.php?Tenant_Status=1">
                             <div class=" h-100">
@@ -67,9 +79,7 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="row mb-3"> 
-                    <div class="col cb-custom-card p-0">
+                    <div class="col cb-custom-card p-0 mx-3">
                         <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Type_ID=1">
                             <div class="h-100">
                                 <div class="card-body d-flex flex-column">
@@ -79,7 +89,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col cb-custom-card p-0 mx-3">
+                    <div class="col cb-custom-card p-0 ">
                         <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Type_ID=3">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
@@ -89,6 +99,9 @@
                             </div>
                         </a>
                     </div>
+                </div>
+
+                <div class="row">
                     <div class="col cb-custom-card p-0">
                         <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Type_ID=4">
                             <div class=" h-100">
@@ -99,35 +112,22 @@
                             </div>
                         </a>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col cb-custom-card p-0">
+                    <div class="col cb-custom-card p-0 mx-3">
                         <a class="text-decoration-none cb-btn-filter" href="#">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <span class="card-title h5">Pending Eviction</span>
+                                    <span class="card-title h5">Upcoming Eviction</span>
                                     <div id="pe-count" class="h1 mb-0 mt-auto">0</div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col cb-custom-card p-0 mx-3">
+                    <div class="col cb-custom-card p-0">
                         <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Type_ID=2">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
                                     <span class="card-title h5">Tenant Holding Over</span>
                                     <div id="tho-count" class="h1 mb-0 mt-auto">0</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col cb-custom-card p-0">
-                        <a class="text-decoration-none cb-btn-filter" href="#">
-                            <div class=" h-100">
-                                <div class="card-body d-flex flex-column">
-                                    <span class="card-title h5">Pending Cases</span>
-                                    <div id="pc-count" class="h1 mb-0 mt-auto">0</div>
                                 </div>
                             </div>
                         </a>

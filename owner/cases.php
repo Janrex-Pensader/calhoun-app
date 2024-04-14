@@ -17,10 +17,11 @@
 	<main role="main" class="container-fluid cb-container-lg mb-5">
 
 		<!-- Contents -->
-		<nav class="mt-rem-5" aria-label="breadcrumb">
-			<ol class="breadcrumb">
+		<nav class="mt-rem-5 mb-3" aria-label="breadcrumb">
+			<span class="h4">Case List</span>
+			<!-- <ol class="breadcrumb">
 				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-file"></i> Cases</li>
-			</ol>
+			</ol> -->
 		</nav>
 
 		<div class="cb-custom-card mb-3">

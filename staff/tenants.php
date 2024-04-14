@@ -24,9 +24,7 @@
 		<!-- Contents -->
 
 		<nav class="mt-rem-5 mb-3" aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-users"></i> Tenants</li>
-			</ol>
+			<span class="h4">Tenant List</span>
 		</nav>
 
 		<div class="cb-custom-card mb-3">
