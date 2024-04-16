@@ -57,7 +57,7 @@ function addCaseStaff(tenantCount, CaseName, CaseType, propertyGUID){ //function
             openModal('Add Case','0c7131b3cbf64974bc80','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
         }
         else if(CaseType == 6 ) {// Eviction Only
-            openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
+            openModal('Add Case','589f7afbe6c5401d9879','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
         }
         else{
             openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+CaseName+'&Case_Type_ID='+CaseType+'&Is_Government_Subsidized=2','modal-lg');
