@@ -9,6 +9,7 @@
 		.cb-container-lg{
 			width: 1500px !important
 		}
+		
 	</style>
 </head>
 

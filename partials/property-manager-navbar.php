@@ -22,6 +22,12 @@
       <li id="nav-properties" class="nav-item">
         <a class="nav-link" href="./properties.php?cbResetParam=1"><i class="fas fa-home"></i> Properties</a>
       </li>
+      <li id="nav-tenants" class="nav-item">
+        <a class="nav-link" href="./tenants.php?cbResetParam=1"><i class="fas fa-users"></i> Tenants</a>
+      </li>
+      <li id="nav-tenants" class="nav-item">
+        <a class="nav-link" href="./cases.php?cbResetParam=1"><i class="fas fa-file"></i> Cases</a>
+      </li>
     </ul>
   </div>
 </div>

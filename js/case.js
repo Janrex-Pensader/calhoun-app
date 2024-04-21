@@ -64,8 +64,3 @@ function addCaseStaff(tenantCount, CaseName, CaseType, propertyGUID){ //function
         }
     }
 }
-
-
-
-eviction
-tenantCountsm
