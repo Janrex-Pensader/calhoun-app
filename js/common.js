@@ -74,7 +74,7 @@ function load_modal() {
         </div>\
       </div>\
     </div>\
-');
+  ');
 }
 
 // function - get URL Vars
@@ -116,6 +116,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
   }
 };
+
+
 function formatDate(date) {
   var monthNames = [
     "January", "February", "March",
