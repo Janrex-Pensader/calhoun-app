@@ -545,6 +545,10 @@ div.bootstrap-select {
   padding: 0px !important;
 }
 
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+  width: 100% !important;
+}
+
 div.bootstrap-select > button {
   height: 33px !important;
 }
