@@ -62,7 +62,7 @@
             <a id="nav_court_summary_report" class="dropdown-item" href="./court_summary_report.php">Court Summary Report</a>
             <a id="nav_active_cases_report" class="dropdown-item" href="./active_cases_report.php">Active Cases Report</a>
             <a id="nav_case_stage_report" class="dropdown-item" href="./case_stage_report.php">Case Stage Report</a>
-            <a id="nav_eviction_summary_report" class="dropdown-item" href="./eviction_summary_report.php">Eviction Summary Report</a>
+            <a id="nav_eviction_summary_report" class="dropdown-item" href="./eviction-summary-report.php">Eviction Summary Report</a>
             <a id="nav_closed_case_report" class="dropdown-item" href="./closed_case_report.php">Closed Case Report</a>
             <a id="nav_case_by_plan_report" class="dropdown-item" href="./case_by_plan_report.php">Case By Plan Report</a>
             <a id="nav_cases_by_account" class="dropdown-item" href="./cases_by_account.php">Cases By Account</a>

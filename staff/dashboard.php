@@ -113,7 +113,7 @@
                         </a>
                     </div>
                     <div class="col cb-custom-card p-0 mx-3">
-                        <a class="text-decoration-none cb-btn-filter" href="#">
+                        <a class="text-decoration-none cb-btn-filter" href="./eviction-summary-report.php">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
                                     <span class="card-title h5">Upcoming Eviction</span>
