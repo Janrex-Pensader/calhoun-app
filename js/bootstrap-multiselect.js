@@ -46,15 +46,14 @@ function initMultiSelect(virtualElementSelector, selector) {
 
 
 document.addEventListener("DataPageReady", function (event) {
-    if (event.detail.appKey == "ded08000fc901a3d203148f5b7bb") {
-        console.log('test');
-      initMultiSelect('select[name$="cbParamVirtual2"]', '[name$="Tenant_ID_List"]');
+  if (event.detail.appKey == "ded08000fc901a3d203148f5b7bb") {
+    initMultiSelect('select[name$="cbParamVirtual2"]', '[name$="Tenant_ID_List"]');
 
-      setTimeout(function() {
-        $('select[name$="cbParamVirtual2"]').selectpicker('refresh');
-      }, 2000);
+    setTimeout(function() {
+      $('select[name$="cbParamVirtual2"]').selectpicker('refresh');
+    }, 2000);
 
-    }
+  }
 
   if (event.detail.appKey == "ded08000589f7afbe6c5401d9879") {
     initMultiSelect('select[name$="cbParamVirtual3"]', '[name$="Top_Lock_fx"]');

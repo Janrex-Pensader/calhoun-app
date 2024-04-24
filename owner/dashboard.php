@@ -41,8 +41,8 @@
                         <a class="text-decoration-none cb-btn-filter" href="./cases.php?Case_Status_ID=1">
                             <div class="h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <span class="card-title h5">Active Cases</span>
-                                    <div id="case-count" class="h1 mb-0 mt-auto">0</div>
+                                    <span class="card-title h6">Active Cases</span>
+                                    <div id="case-count" class="h3 mb-0 mt-auto">0</div>
                                 </div>
                             </div>
                         </a>
@@ -51,8 +51,8 @@
                         <a class="text-decoration-none cb-btn-filter" href="./properties.php?Status_ID=1">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <span class="card-title h5">Properties</span>
-                                    <div id="property-count" class="h1 mb-0 mt-auto">0</div>
+                                    <span class="card-title h6">Properties</span>
+                                    <div id="property-count" class="h3 mb-0 mt-auto">0</div>
                                 </div>
                             </div>
                         </a>
@@ -61,8 +61,8 @@
                         <a class="text-decoration-none cb-btn-filter" href="./tenants.php?Tenant_Status=1">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <span class="card-title h5">Tenants</span>
-                                    <div id="tenant-count" class="h1 mb-0 mt-auto">0</div>
+                                    <span class="card-title h6">Tenants</span>
+                                    <div id="tenant-count" class="h3 mb-0 mt-auto">0</div>
                                 </div>
                             </div>
                         </a>

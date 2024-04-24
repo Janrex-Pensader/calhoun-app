@@ -552,3 +552,7 @@ div.bootstrap-select {
 div.bootstrap-select > button {
   height: 33px !important;
 }
+
+.card-body{
+  padding: 1rem !important;
+}
