@@ -22,9 +22,7 @@ document.addEventListener('DataPageReady', function (event) {
             document.querySelector("[id*='RecordTenants_Portion']").parentNode.parentNode.style.display = 'none'
         } 
     }
-
     
-
 });
 
 function addCase(tenantCount){ //function for adding case from the properties details page
