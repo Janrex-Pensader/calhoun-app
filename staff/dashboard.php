@@ -27,7 +27,7 @@
 
         <div class="row mt-rem-5">
 
-            <div class="col-lg-6 px-0">
+            <div class="col-lg-7 px-0">
                 <div class="row cb-custom-card mb-3 p-0">
                     <img src="../img/dashboard.png" class="w-100 card-img" style="border-radius: 3px">
                     <div class="card-img-overlay">
