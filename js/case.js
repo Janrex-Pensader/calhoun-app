@@ -25,8 +25,6 @@ document.addEventListener('DataPageReady', function (event) {
 });
 
 function addCase(tenantCount){ //function for adding case from the properties details page
-    console.log(tenantCount);
-    console.log(parseInt(tenantCount) > 0);
     if(parseInt(tenantCount) > 0){ //open case type picker
         openModal('Add Case','49fb1db99f9449919f63','?Case_Type_ID=1','modal-md');
     }else{ //open swal and add tenant modal
