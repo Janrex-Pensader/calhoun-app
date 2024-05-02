@@ -13,8 +13,9 @@ document.addEventListener('DataPageReady', function (event) {
 });
 
 function userDupChecker(userGUID){
-    document.querySelector('form[action*="cce084d0153e40b5bc4a"] input[name*="InsertRecordEmail"]').value="";
+    
     if(userGUID != 0 && userGUID != null){
+        document.querySelector('form[action*="cce084d0153e40b5bc4a"] input[name*="InsertRecordEmail"]').value="";
         Swal.fire({
             title: "Owner is already in the system!",
             text: "Go to the owner's profile?",
