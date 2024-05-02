@@ -77,8 +77,8 @@
                         <a class="text-decoration-none cb-btn-filter" href="./tenants.php?Tenant_Status=1">
                             <div class=" h-100">
                                 <div class="card-body d-flex flex-column">
-                                    <span class="card-title h6">Tenants</span>
-                                    <div id="tenant-count" class="h3 mb-0 mt-auto">0</div>
+                                    <span class="card-title h6">Upcoming Court Hearings</span>
+                                    <div id="UCH-count" class="h3 mb-0 mt-auto">0</div>
                                 </div>
                             </div>
                         </a>
