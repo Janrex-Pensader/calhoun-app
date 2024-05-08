@@ -54,11 +54,6 @@ document.addEventListener("DataPageReady", function (event) {
     }, 2000);
 
   }
-
-  if (event.detail.appKey == "ded08000589f7afbe6c5401d9879" || event.detail.appKey == "ded080006984001f67c247218976") {
-    initMultiSelect('select[name$="cbParamVirtual3"]', '[name$="Top_Lock_fx"]');
-    initMultiSelect('select[name$="cbParamVirtual4"]', '[name$="Bottom_Lock_fx"]');
-  }
 });
 
    
