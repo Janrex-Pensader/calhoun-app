@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="row mb-3">
-			<div class="col-lg-8 cb-custom-card pl-0 mr-3">
+			<div class="col-lg-7 cb-custom-card mr-3">
 				<!-- Tenant List -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080005d6aa84e219241b28e3c/emb"></script>
 			</div>

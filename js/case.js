@@ -45,7 +45,7 @@ function addCase(tenantCount){ //function for adding case from the properties de
 function caseTypePicker(caseName, caseType, propertyGUID){ //function to add case outside property details page
 
     if(caseType == 1 || caseType == 4 || caseType == 2) {// failure to pay or Breach of Lease 
-        openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+caseName+'&Case_Type_ID='+caseType+'&Is_Government_Subsidized=2','modal-lg');
+        openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+caseName+'&Case_Type_ID='+caseType+'&Is_Government_Subsidized=2&Type_of_Period_ID=2','modal-lg');
     }
     else if(caseType == 3 ) {// wrongful detainer
         openModal('Add Case','0c7131b3cbf64974bc80','?Property_GUID='+propertyGUID+'&Case_Name='+caseName+'&Case_Type_ID='+caseType+'&Is_Government_Subsidized=2','modal-lg');
@@ -54,6 +54,6 @@ function caseTypePicker(caseName, caseType, propertyGUID){ //function to add cas
         openModal('Add Case','589f7afbe6c5401d9879','?Property_GUID='+propertyGUID+'&Case_Name='+caseName+'&Case_Type_ID='+caseType+'&Is_Government_Subsidized=2','modal-lg');
     }
     else{
-        openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+caseName+'&Case_Type_ID='+caseType+'&Is_Government_Subsidized=2','modal-lg');
+        openModal('Add Case','19f1679b90d6413a9a2a','?Property_GUID='+propertyGUID+'&Case_Name='+caseName+'&Case_Type_ID='+caseType+'&Is_Government_Subsidized=2&Type_of_Period_ID=2','modal-lg');
     }
 }
