@@ -46,11 +46,12 @@
             <i class="fas fa-cogs"></i> Settings
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a id="nav_user_screen" class="dropdown-item d-none" href="./user-screen.php">Manager Users</a>
-            <a id="" class="dropdown-item" href="#">Export Data</a>
-            <a id="" class="dropdown-item" href="#">Referance Tables</a>
-            <a id="" class="dropdown-item" href="#">Audit Log</a>
-            <a id="" class="dropdown-item" href="#">Backup</a>
+            <a id="nav_user_screen" class="dropdown-item d-none" href="./user-screen.php">Manage Users</a>
+            <a id="nav_property_manager" class="dropdown-item" href="#">Property Manager</a>
+            <a id="nav_export_data" class="dropdown-item" href="#">Export Data</a>
+            <a id="nav_reference_tables" class="dropdown-item d-none" href="#">Reference Tables</a>
+            <a id="nav_audit_log" class="dropdown-item" href="#">Audit Log</a>
+            <a id="nav_backup" class="dropdown-item d-none" href="#">Backup</a>
           </div>
         </li>
         <li class="nav-item dropdown " id="nav-reports">
@@ -80,8 +81,4 @@
       </ul>
     </div>
 </div>
-
-
-
-
 
