@@ -1,0 +1,30 @@
+span.h5 {
+    letter-spacing: 1px;
+    
+}
+
+.section-title {
+    font-size: 20px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+div:has(> span.section-title) {
+ padding: 20px 0px !important;
+ color: #004AAA !important;
+}
+
+body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink,
+span, p, a,
+nav.li,
+.nav-link,
+.cbFormLabelCell,
+.cbFormSelect,
+.cbFormData {
+    font-size: 16px !important;
+}
+
+.cbBackButtonContainer {
+    padding-bottom: 10px !important;
+}
