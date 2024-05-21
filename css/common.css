@@ -13,6 +13,15 @@ nav.li,
     font-size: 16px !important;
 }
 
+.nav-link.active{
+  background-color: #2A2F42 !important;
+  color: #ffff !important;
+}
+
+.nav-link:focus{
+  outline: none;
+}
+
 head, body{
   font-family: lato;
 }
