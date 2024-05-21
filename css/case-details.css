@@ -15,8 +15,11 @@ div:has(> span.section-title) {
  color: #004AAA !important;
 }
 
-body, .cbResultSetData, .cbResultSetRecordMessage, .cbResultSetLabelLink,
-span, p, a,
+body, 
+.cbResultSetData, 
+.cbResultSetRecordMessage, 
+.cbResultSetLabelLink,
+span, p, a, label,
 nav.li,
 .nav-link,
 .cbFormLabelCell,
