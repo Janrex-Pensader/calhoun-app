@@ -1,4 +1,17 @@
 /* Common/Bootstrap overrides */
+body, 
+.cbResultSetData, 
+.cbResultSetRecordMessage, 
+.cbResultSetLabelLink,
+span, p, a, label,
+nav.li,
+.nav-link,
+.cbFormLabelCell,
+.cbFormSelect,
+.cbFormData,
+.cbFormTextField {
+    font-size: 16px !important;
+}
 
 head, body{
   font-family: lato;
