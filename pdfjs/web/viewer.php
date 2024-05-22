@@ -426,7 +426,11 @@ See https://github.com/adobe-type-tools/cmap-resources
   <div id="printContainer"></div>
 
 <div class="cbform" style="display: block;">
-<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080009f4e842afea942c0beef/emb"></script>
+  <?php if(isset($_GET['property'])) : ?>
+    <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080009f4e842afea942c0beef/emb"></script>
+  <?php else : ?>
+    <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080000d7a1d62c62c488fb8b7/emb"></script>
+  <?php endif;?>
   <span class="cbspan" cb-data=""></span>
 </div>
 </body>

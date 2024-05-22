@@ -13,6 +13,10 @@ nav.li,
     font-size: 16px !important;
 }
 
+.h4{
+  font-size: 1.5rem !important;
+}
+
 .nav-link.active{
   background-color: #2A2F42 !important;
   color: #ffff !important;

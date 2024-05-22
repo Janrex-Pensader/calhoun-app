@@ -12,7 +12,6 @@ document.addEventListener('DataPageReady', function (event) {
     }
 
     function hidetenantsPortion(){
-        
         var value = $( 'input[name*=RecordIs_Government_Subsidized]:checked' ).val();
         console.log(value);
         if(value == 1) {
