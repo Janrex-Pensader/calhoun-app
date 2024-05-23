@@ -47,7 +47,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a id="nav_user_screen" class="dropdown-item d-none" href="./user-screen.php">Manage Users</a>
-            <a id="nav_property_manager" class="dropdown-item" href="./property-managers.php">Property Manager</a>
+            <a id="nav_property_manager" class="dropdown-item" href="./property-managers.php">Manage Property Manager</a>
             <a id="nav_export_data" class="dropdown-item" href="./export-data.php">Export Data</a>
             <a id="nav_reference_tables" class="dropdown-item d-none" href="./reference-tables.php">Reference Tables</a>
             <a id="nav_audit_log" class="dropdown-item" href="./audit-log.php">Audit Log</a>
