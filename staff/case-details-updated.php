@@ -45,15 +45,32 @@
 
 		<div class="row">
 			<div class="col-6 cb-custom-card mt-2 mr-2">
-				<!-- Case Rent -->
+				<!-- Case Rent and court info -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000f31e691acbe843feb033/emb"></script>
+				<!-- Case Tenants -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080005d6aa84e219241b28e3c/emb"></script>
 			</div>
 
 			<div class="col cb-custom-card mt-2">
 				<!-- Court Details -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000eae4ea1894924d0ca0b7/emb"></script>
 			</div>
+		</div>
 
+		<div class="row">
+			<div class="col cb-custom-card mt-2">
+				<!-- Case History -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000388a31e813f040bba3a2/emb"></script>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col cb-custom-card mt-2">
+				<!-- Case Files -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded0800025c11ecd0e8f4faabe36/emb"></script>
+				<!-- Property files Read Only -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000c29332bb889e44bb81ea/emb"></script>
+			</div>
 		</div>
 		
 
