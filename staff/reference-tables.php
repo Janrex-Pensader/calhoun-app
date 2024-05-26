@@ -35,10 +35,16 @@
 				<div class="col-12 mx-auto">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="case-progression-tab" data-toggle="tab" data-target="#case-progression" type="button" role="tab" aria-controls="case-progression" aria-selected="true">Case Progression Action</button>
+                            <button class="nav-link active" id="case-progression-tab" data-toggle="tab" data-target="#case-progression" type="button" role="tab" aria-controls="case-progression" aria-selected="true">Case Action</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="case-stage-tab" data-toggle="tab" data-target="#case-stage" type="button" role="tab" aria-controls="case-stage" aria-selected="false">Case Stage</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="flag-status-tab" data-toggle="tab" data-target="#flag-status" type="button" role="tab" aria-controls="flag-status" aria-selected="false">Flag Status</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="file-type-tab" data-toggle="tab" data-target="#file-type" type="button" role="tab" aria-controls="file-type" aria-selected="false">File Type</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
@@ -47,6 +53,12 @@
                         </div>
                         <div class="tab-pane fade" id="case-stage" role="tabpanel" aria-labelledby="case-stage-tab">
                             <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080007421eb27ca324858aa7c/emb"></script>
+                        </div>
+                        <div class="tab-pane fade" id="flag-status" role="tabpanel" aria-labelledby="flag-status-tab">
+                            <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000000b9028d85a4162b575/emb"></script>
+                        </div>
+                        <div class="tab-pane fade" id="file-type" role="tabpanel" aria-labelledby="file-type-tab">
+                            <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded0800044e6421855f94664b4dd/emb"></script>
                         </div>
                     </div>
 				</div>
