@@ -19,6 +19,9 @@
 <div class="row px-12">
   <div class="collapse navbar-collapse" id="navbar">
     <ul class="navbar-nav">
+      <li id="nav-owners" class="nav-item">
+          <a class="nav-link" href="./owners.php?cbResetParam=1"><i class="fas fa-users"></i> Owners</a>
+      </li>
       <li id="nav-properties" class="nav-item">
         <a class="nav-link" href="./properties.php?cbResetParam=1"><i class="fas fa-home"></i> Properties</a>
       </li>
