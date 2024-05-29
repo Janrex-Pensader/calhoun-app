@@ -72,6 +72,17 @@
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000c29332bb889e44bb81ea/emb"></script>
 			</div>
 		</div>
+
+
+		<div class="row mt-2">
+			<div class="col cb-custom-card mr-2 cb-hide-submit">
+				<!-- other info DP -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded0800099c0f5bf6b5d432d9e98/emb"></script>
+			</div>
+		
+			<div class="col cb-custom-card">
+			</div>
+		</div>
 		
 
 	</main><!-- /.container -->
