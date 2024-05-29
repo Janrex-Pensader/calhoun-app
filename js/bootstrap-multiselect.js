@@ -47,6 +47,9 @@ function initMultiSelect(virtualElementSelector, selector) {
 
 document.addEventListener("DataPageReady", function (event) {
   if (event.detail.appKey == "ded08000fc901a3d203148f5b7bb") {
+
+    
+
     initMultiSelect('select[name$="cbParamVirtual2"]', '[name$="Tenant_ID_List"]');
 
     setTimeout(function() {
@@ -54,6 +57,20 @@ document.addEventListener("DataPageReady", function (event) {
     }, 2000);
 
   }
+
+  if (event.detail.appKey == "ded08000eae4ea1894924d0ca0b7") {
+
+    //hide the actual field
+    document.querySelector('input[name*=EditRecordDate_Method_Delivery_fx]').parentElement.parentElement.style.display = 'none'
+    
+    initMultiSelect('select[name$="cbParamVirtual2"]', '[name$="EditRecordDate_Method_Delivery_fx"]');
+
+    setTimeout(function() {
+      $('select[name$="cbParamVirtual2"]').selectpicker('refresh');
+    }, 2000);
+
+  }
+
 });
 
    
