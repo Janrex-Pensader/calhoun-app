@@ -582,3 +582,6 @@ div.bootstrap-select > button {
 .card-body{
   padding: 1rem !important;
 }
+.hide-this {
+  display: none !important;
+}
