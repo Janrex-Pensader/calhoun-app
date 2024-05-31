@@ -10,6 +10,10 @@
 		.cb-container-lg{
 			width: 1500px !important
 		}
+
+		input[name="Mod0EditRecord"] {
+			display: none !important;
+		}
 	</style>
 </head>
 
@@ -21,7 +25,7 @@
 
 	<script>$('#nav-cases').addClass('active');</script>
 
-	<main role="main" class="container-fluid mb-5">
+	< role="main" class="container-fluid mb-5">
 
 		<!-- Contents -->
 		<nav class="mt-rem-5" aria-label="breadcrumb">
@@ -83,13 +87,34 @@
 			<div class="col cb-custom-card">
 			</div>
 		</div>
-		
 
 	</main><!-- /.container -->
-	
 	<div id="footer">
-        <script>load_modal()</script>
+        <script>
+		load_modal()
+		$("#btn-submit-all").removeClass("hide-this");
+
+		// detect unsaved changes
+		$(document).ready(function () {
+		// Another way to bind the event
+			$(window).bind('beforeunload', function() {
+				if(unsaved){
+					return "You have unsaved changes on this page. Are you sure you want to leave?";
+				}
+			});
+
+			// Monitor dynamic inputs
+			$(document).on('change', ':input', function(){ //triggers change in all input fields including text type
+				unsaved = true;
+			});
+		});
+
+		$('#btn-submit-all').click(function() {
+			unsaved = false;
+		});
+	</script>
     </div>
 </body>
 
 </html>
+
