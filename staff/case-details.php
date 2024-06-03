@@ -44,10 +44,16 @@
 				<!-- Case Basic Info -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080007dadc86af30945168d50/emb"></script>
 			</div>
-		
 			<div class="col-4 cb-custom-card">
 				<!-- Case Status-->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded0800051b35e4bbb7b485d9e96/emb"></script>
+			</div>
+		</div>
+
+		<div class="cb-custom-card mt-2 mr-2 row">
+			<div class="col-4">
+				<!-- Generate Email -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000374bca71fca2476fa5c8/emb"></script>
 			</div>
 		</div>
 
