@@ -99,9 +99,9 @@
 		</div>
 
 	</main><!-- /.container -->
-	<div id="footer mb-5">
+	<div id="footer" class="mb-5">
         <script>
-			load_modal()
+			load_modal();
 			$("#btn-submit-all").removeClass("hide-this");
 
 			// detect unsaved changes
