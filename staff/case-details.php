@@ -106,20 +106,28 @@
 
 			// detect unsaved changes
 			$(document).ready(function () {
+				unsaved = false;
+
 			// Another way to bind the event
 				$(window).bind('beforeunload', function() {
+					console.log(unsaved);
 					if(unsaved){
 						return "You have unsaved changes on this page. Are you sure you want to leave?";
 					}
 				});
 
 				// Monitor dynamic inputs
-				$(document).on('keyup paste', ':input', function(){ 
+				$(document).on('focusout paste', 'input', function(){ 
 					//triggers change in all input fields including text type
 					unsaved = true;
 				});
 
-				$(document).on('change', 'select', function(){ 
+				$(document).on('focusout keyup paste', 'textarea', function(){ 
+					//triggers change in all input fields including text type
+					unsaved = true;
+				});
+
+				$(document).on('propertychange', 'select', function(){ 
 					unsaved = true;
 				});
 			});
