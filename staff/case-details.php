@@ -114,12 +114,21 @@
 				});
 
 				// Monitor dynamic inputs
-				$(document).on('change', ':input', function(){ //triggers change in all input fields including text type
+				$(document).on('keyup paste', ':input', function(){ 
+					//triggers change in all input fields including text type
+					unsaved = true;
+				});
+
+				$(document).on('change', 'select', function(){ 
 					unsaved = true;
 				});
 			});
 
 			$('#btn-submit-all').click(function() {
+				unsaved = false;
+			});
+
+			$('button[type="button"]').click(function() {
 				unsaved = false;
 			});
 		</script>
