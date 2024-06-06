@@ -27,7 +27,9 @@
                 <div class="row cb-custom-card mb-3 p-0">
                     <img src="../img/dashboard.png" class="w-100 card-img" style="border-radius: 3px">
                     <div class="card-img-overlay">
-                        Welcome back!
+                        <span class="user-name">Welcome back, 
+                            <span id="calendar-name" class="user-name"></span>!
+                        </span>
                     </div>
                 </div>
                 <div class="row cb-custom-card">
