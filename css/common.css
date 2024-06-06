@@ -589,3 +589,9 @@ div.bootstrap-select > button {
 .hide-this {
   display: none !important;
 }
+
+span.user-name {
+  text-transform: capitalize;
+  font-size: 20px !important;
+  font-weight: 600;
+}
