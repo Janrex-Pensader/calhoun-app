@@ -72,15 +72,8 @@ document.addEventListener("DataPageReady", function (event) {
   }
 
   if (event.detail.appKey == "ded080002f512709e97b4e0bbd97") {
-
-    //hide the actual field
-    document.querySelector('input[name*=RecordCourt_Dismissed_Reason]').parentElement.parentElement.style.display = 'none'
     
     initMultiSelect('select[name$="cbParamVirtual1"]', '[name$="RecordCourt_Dismissed_Reason"]');
-
-    setTimeout(function() {
-      $('select[name$="cbParamVirtual1"]').selectpicker('refresh');
-    }, 2000);
 
   }
 
