@@ -77,6 +77,12 @@ document.addEventListener("DataPageReady", function (event) {
 
   }
 
+  if (event.detail.appKey == "ded08000306989d74e894128a689") {
+    
+    initMultiSelect('select[name$="cbParamVirtual2"]', '[name$="RecordCourt_Dismissed_Reason"]');
+
+  }
+
 });
 
    
