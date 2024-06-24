@@ -33,6 +33,7 @@
 		<div class="cb-custom-card">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
+					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080002aea70c4391047e88e5f/emb"></script>
 					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000d78d428287144ab6a2c2/emb"></script>
 				</div>
 			</div>

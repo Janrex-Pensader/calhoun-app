@@ -83,6 +83,61 @@ document.addEventListener("DataPageReady", function (event) {
 
   }
 
+  if (event.detail.appKey == "ded080002aea70c4391047e88e5f") {
+    
+    initMultiSelect2('select[name$="cbParamVirtual7"]', '[name$="cbParamVirtual4"]');
+
+    document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual4]').parentNode.style.display = 'none';
+
+  }
+
 });
 
+function initMultiSelect2(virtualElementSelector, selector) {
+  $(virtualElementSelector).prop("multiple", true);
+
+  if ($(selector).val().trim()) {
+    // Exclude the "Select All"/"Any" item when preselecting items on load
+    const cleanValues = [
+      // Remove duplicate values
+      ...new Set(
+        $(selector)
+          .val()
+          .split(" OR ")
+          .map((value) => value.trim())
+          .filter((value) => value !== ""),
+      ),
+    ];
+    const cleanParams = cleanValues.sort().join(" OR ");
+
+    $(selector).val(cleanParams);
+    $(virtualElementSelector).val(cleanValues);
+  } else {
+    // Select all items on load
+    $(virtualElementSelector).val("");
+  }
+
+  $(virtualElementSelector).selectpicker({
+    actionsBox: true, 
+    selectAllText: "Select All",
+    deselectAllText: "Deselect All",
+    liveSearch: true,
+    selectedTextFormat: 'count > 2'
+  });
+
+  $(virtualElementSelector).on("changed.bs.select", function () {
+    const values =
+      $(this).val().length !== 1
+        ? // Exclude the "Select All"/"Any" item when multiple items are selected
+          $(this)
+            .val()
+            .filter((value) => value.trim() !== "")
+        : // Allow "Select All"/"Any" for single selections
+          $(this).val();
+
+    $(selector).val(values.join(" OR "));
+    $(selector).get(0).dispatchEvent(new Event("change"));
+  });
+}
    
+
