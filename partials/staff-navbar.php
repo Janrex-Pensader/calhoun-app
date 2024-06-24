@@ -26,7 +26,7 @@
           <a class="nav-link" href="./owners.php?cbResetParam=1"><i class="fas fa-users"></i> Owners</a>
         </li>
         <li id="nav-properties" class="nav-item">
-          <a class="nav-link" href="./properties.php?cbResetParam=1"><i class="fas fa-home"></i> Properties</a>
+          <a class="nav-link" href="./properties.php?Property_Status=1"><i class="fas fa-home"></i> Properties</a>
         </li>
         <li id="nav-tenants" class="nav-item">
           <a class="nav-link" href="./tenants.php?cbResetParam=1"><i class="fas fa-users"></i> Tenants</a>
