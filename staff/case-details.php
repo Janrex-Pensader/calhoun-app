@@ -55,6 +55,10 @@
 				<!-- Generate Email -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000374bca71fca2476fa5c8/emb"></script>
 			</div>
+			<div class="col-4">
+				<!-- Generate SMS -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080001d6e780f77b1426c91eb/emb"></script>
+			</div>
 		</div>
 
 		<div class="row">
