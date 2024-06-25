@@ -50,7 +50,7 @@
 			</div>
 		</div>
 
-		<div class="cb-custom-card mt-2 mr-2 row">
+		<div class="mt-2 mr-2 row" style="background: #fff;">
 			<div class="col-4">
 				<!-- Generate Email -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000374bca71fca2476fa5c8/emb"></script>
