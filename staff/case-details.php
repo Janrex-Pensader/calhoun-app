@@ -63,6 +63,8 @@
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000f31e691acbe843feb033/emb"></script>
 				<!-- Case Tenants -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080005d6aa84e219241b28e3c/emb"></script>
+				<!-- Case Contacts -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000a66e6e26ed354733a942/emb"></script>
 			</div>
 
 			<div class="col cb-custom-card mt-2">
@@ -104,6 +106,21 @@
 			load_modal();
 			$("#btn-submit-all").removeClass("hide-this");
 
+			document.addEventListener('DataPageReady', function (event) {
+				$('input[name*=Phone]').inputmask({mask: '(999)-999-9999', showMaskOnHover: false, placeholder: 'x'});
+			});
+
+			const parentOfELement = document.body;
+			const onMutation = () => {
+				if (parentOfELement.querySelector("input[name*='InlineEditPhone']")) {
+					observer.disconnect();
+					console.log('test');
+					$('input[name*=Phone]').inputmask({mask: '(999)-999-9999', showMaskOnHover: false, placeholder: 'x'});
+				}
+			}
+			const observer = new MutationObserver(onMutation)
+			observer.observe(parentOfELement, {childList: true})
+
 			// detect unsaved changes
 			$(document).ready(function () {
 				unsaved = false;
@@ -142,6 +159,5 @@
 		</script>
     </div>
 </body>
-
 </html>
 
