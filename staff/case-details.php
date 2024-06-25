@@ -50,10 +50,14 @@
 			</div>
 		</div>
 
-		<div class="cb-custom-card mt-2 mr-2 row">
+		<div class="mt-2 mr-2 row" style="background: #fff;">
 			<div class="col-4">
 				<!-- Generate Email -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000374bca71fca2476fa5c8/emb"></script>
+			</div>
+			<div class="col-4">
+				<!-- Generate SMS -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080001d6e780f77b1426c91eb/emb"></script>
 			</div>
 		</div>
 
