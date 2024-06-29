@@ -59,6 +59,10 @@
 				<!-- Generate SMS -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080001d6e780f77b1426c91eb/emb"></script>
 			</div>
+			<div class="col-4">
+				<!-- Generate PDF -->
+				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000aabed53787e34c9f8978/emb"></script>
+			</div>
 		</div>
 
 		<div class="row">
