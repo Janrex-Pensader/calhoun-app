@@ -27,6 +27,7 @@ function initMultiSelect(virtualElementSelector, selector) {
     selectAllText: "Select All", 
     deselectAllText: "Deselect All",
     liveSearch: true,
+    selectedTextFormat: 'count > 2'
   });
 
   $(virtualElementSelector).on("changed.bs.select", function () {
@@ -93,6 +94,8 @@ document.addEventListener("DataPageReady", function (event) {
 
 });
 
+
+//used in flag status search criteria
 function initMultiSelect2(virtualElementSelector, selector) {
   $(virtualElementSelector).prop("multiple", true);
 
