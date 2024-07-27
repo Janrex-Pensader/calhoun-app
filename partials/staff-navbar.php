@@ -82,9 +82,13 @@
       </ul>
     </div>
 
-    <div id="btn-submit-all" class="text-right hide-this mt-1">
-      <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003041f19ec520437ca017/emb"></script>
-      <button id="btn-duplicate" class="btn btn-outline btn-primary">DUPLICATE</button>
+    <div id="btn-submit-all" class="row text-right hide-this mt-1">
+      <div class="col">
+        <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003041f19ec520437ca017/emb"></script>
+      </div>
+      <div class="col">
+        <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000a6f3cfde9991427d9984/emb"></script>
+      </div>
     </div>
 
 
