@@ -61,22 +61,22 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <h6 class="dropdown-header">Eviction Reports</h6>
             <a id="nav_court_summary_report" class="dropdown-item" href="./court-summary-report.php">Court Summary Report</a>
-            <a id="nav_active_cases_report" class="dropdown-item" href="./active_cases_report.php">Active Cases Report</a>
-            <a id="nav_case_stage_report" class="dropdown-item" href="./case_stage_report.php">Case Stage Report</a>
+            <!-- <a id="nav_active_cases_report" class="dropdown-item" href="./active_cases_report.php">Active Cases Report</a> -->
+            <!-- <a id="nav_case_stage_report" class="dropdown-item" href="./case_stage_report.php">Case Stage Report</a> -->
             <a id="nav_in_house_case_report" class="dropdown-item" href="./in_house_case_report.php">In House Case Report</a>
             <a id="nav_eviction_summary_report" class="dropdown-item" href="./eviction-summary-report.php">Eviction Summary Report</a>
-            <a id="nav_closed_case_report" class="dropdown-item" href="./closed_case_report.php">Closed Case Report</a>
-            <a id="nav_case_by_plan_report" class="dropdown-item" href="./case_by_plan_report.php">Case By Plan Report</a>
-            <a id="nav_cases_by_account" class="dropdown-item" href="./cases_by_account.php">Cases By Account</a>
-            <a id="nav_virtual_folder_check_report" class="dropdown-item" href="./virtual_folder_check_report.php">Virtual Folder Check Report</a>
-            <a id="nav_tho_pending_vacate" class="dropdown-item" href="./tho_pending_vacate.php">THO Pending Vacate</a>
-            <div class="dropdown-divider"></div>
-            <h6 class="dropdown-header">Property Management Reports</h6>
-            <a id="nav_message_summary_report" class="dropdown-item" href="./message_summary_report.php">Message Summary Report</a>
-            <a id="nav_rental_license_expiration_report" class="dropdown-item" href="./rental_license_expiration_report.php">Rental License Expiration Report</a>
-            <a id="nav_current_key_report" class="dropdown-item" href="./current_key_report.php">Current Key Report</a>
-            <a id="nav_upcoming_property_inspection_report" class="dropdown-item" href="./active_managed_properties.php">Upcoming Property Inspection Report</a>
-            <a id="nav_active_managed_properties" class="dropdown-item" href="./upcoming_property_inspection_report.php">Active managed Properties</a>
+            <!-- <a id="nav_closed_case_report" class="dropdown-item" href="./closed_case_report.php">Closed Case Report</a> -->
+            <!-- <a id="nav_case_by_plan_report" class="dropdown-item" href="./case_by_plan_report.php">Case By Plan Report</a> -->
+            <!-- <a id="nav_cases_by_account" class="dropdown-item" href="./cases_by_account.php">Cases By Account</a> -->
+            <!-- <a id="nav_virtual_folder_check_report" class="dropdown-item" href="./virtual_folder_check_report.php">Virtual Folder Check Report</a> -->
+            <!-- <a id="nav_tho_pending_vacate" class="dropdown-item" href="./tho_pending_vacate.php">THO Pending Vacate</a> -->
+            <!-- <div class="dropdown-divider"></div> -->
+            <!-- <h6 class="dropdown-header">Property Management Reports</h6> -->
+            <!-- <a id="nav_message_summary_report" class="dropdown-item" href="./message_summary_report.php">Message Summary Report</a> -->
+            <!-- <a id="nav_rental_license_expiration_report" class="dropdown-item" href="./rental_license_expiration_report.php">Rental License Expiration Report</a> -->
+            <!-- <a id="nav_current_key_report" class="dropdown-item" href="./current_key_report.php">Current Key Report</a> -->
+            <!-- <a id="nav_upcoming_property_inspection_report" class="dropdown-item" href="./active_managed_properties.php">Upcoming Property Inspection Report</a> -->
+            <!-- <a id="nav_active_managed_properties" class="dropdown-item" href="./upcoming_property_inspection_report.php">Active managed Properties</a> -->
           </div>
         </li>
       </ul>
