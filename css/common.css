@@ -13,6 +13,36 @@ nav.li,
     font-size: 16px !important;
 }
 
+#case-nav-bar > .nav-item{
+    color: #2A2F42;
+}
+
+#case-nav-bar .nav-item:hover{
+    background-color: #2A2F42;
+    color: #fff;
+}
+
+#case-nav-bar .nav-link:hover{
+    color: #fff;
+}
+
+#case-nav-bar .active{
+    background-color: #2A2F42;
+    color: #fff;
+}
+
+.nav-link{
+    color: inherit;
+}
+
+.cb-border-rad{
+    border-radius: .25rem;
+}
+
+.cb-white-bg{
+    background-color: white;
+}
+
 input:disabled{
   background: #CCCC !important;
 }
