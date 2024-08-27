@@ -80,7 +80,7 @@
 
 			$("#btn-submit-all").removeClass("hide-this");
 
-            document.getElementById('nav-case-details').querySelector('a').href = './case-details-1.php'+ window.location.search;
+            document.getElementById('nav-case-details').querySelector('a').href = './case-details.php'+ window.location.search;
             document.getElementById('nav-case-files').querySelector('a').href = './case-files.php'+ window.location.search
             document.getElementById('nav-case-users').querySelector('a').href = './case-users.php'+ window.location.search
 
