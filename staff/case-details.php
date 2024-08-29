@@ -39,10 +39,10 @@
         <nav class="mt-rem-5 mb-2 navbar cb-white-bg cb-border-rad navbar-expand-sm p-0">
             <ul id="case-nav-bar" class="navbar-nav">
                 <li id="nav-case-details" class="nav-item active">
-                    <a class="nav-link" href="./case-details-1.php?"><i class="fas fa-tasks"></i> details</a>
+                    <a class="nav-link" href="./case-details-1.php?"><i class="fas fa-tasks"></i> Details</a>
                 </li>
                 <li id="nav-case-files" class="nav-item">
-                    <a class="nav-link" href="./case-files.php?"><i class="fas fa-file"></i> Files</a>
+                    <a class="nav-link" href="./case-files.php?"><i class="fas fa-file"></i> Files and Other Info</a>
                 </li>
                 <li id="nav-case-users" class="nav-item">
                     <a class="nav-link" href="./case-users.php?"><i class="fas fa-users"></i> Tenants and Cotacts</a>
@@ -92,16 +92,6 @@
 			<div class="col cb-custom-card mt-2">
 				<!-- Case History -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000388a31e813f040bba3a2/emb"></script>
-			</div>
-		</div>
-
-		<div class="row mt-2">
-			<div class="col cb-custom-card mr-2 cb-hide-submit">
-				<!-- other info DP -->
-				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded0800099c0f5bf6b5d432d9e98/emb"></script>
-			</div>
-		
-			<div class="col cb-custom-card">
 			</div>
 		</div>
 
