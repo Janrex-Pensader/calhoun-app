@@ -43,7 +43,7 @@
                     <a class="nav-link" href="./case-files.php?"><i class="fas fa-file"></i> Files and Other Info</a>
                 </li>
                 <li id="nav-case-users" class="nav-item">
-                    <a class="nav-link" href="./case-users.php?"><i class="fas fa-users"></i> Tenants and Cotacts</a>
+                    <a class="nav-link" href="./case-users.php?"><i class="fas fa-users"></i> Tenants and Contacts</a>
                 </li>
             </ul>
         </nav>

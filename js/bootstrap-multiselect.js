@@ -87,9 +87,10 @@ document.addEventListener("DataPageReady", function (event) {
   if (event.detail.appKey == "ded080002aea70c4391047e88e5f") {
     
     initMultiSelect2('select[name$="cbParamVirtual7"]', '[name$="cbParamVirtual4"]');
+    initMultiSelect2('select[name$="cbParamVirtual5"]', '[name$="cbParamVirtual10"]');
 
     document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual4]').parentNode.parentNode.style.display = 'none';
-
+    document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual10]').parentNode.parentNode.style.display = 'none';
   }
 
 });
