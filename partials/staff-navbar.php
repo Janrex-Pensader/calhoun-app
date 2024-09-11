@@ -65,6 +65,7 @@
             <!-- <a id="nav_case_stage_report" class="dropdown-item" href="./case_stage_report.php">Case Stage Report</a> -->
             <a id="nav_in_house_case_report" class="dropdown-item" href="./in_house_case_report.php">In House Case Report</a>
             <a id="nav_eviction_summary_report" class="dropdown-item" href="./eviction-summary-report.php">Eviction Summary Report</a>
+            <a id="nav_vacate_date" class="dropdown-item" href="./vacate-date-report.php">Vacate Date Report</a>
             <!-- <a id="nav_closed_case_report" class="dropdown-item" href="./closed_case_report.php">Closed Case Report</a> -->
             <!-- <a id="nav_case_by_plan_report" class="dropdown-item" href="./case_by_plan_report.php">Case By Plan Report</a> -->
             <!-- <a id="nav_cases_by_account" class="dropdown-item" href="./cases_by_account.php">Cases By Account</a> -->
