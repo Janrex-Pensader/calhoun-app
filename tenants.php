@@ -3,8 +3,12 @@
 
 <head>
 	<?php include '../partials/header.php';?>
-	<title>Staff: Cases</title>
-    
+	<title>Staff: Tenants</title>
+    <style>
+        .cb-container-lg{
+            width: 1550px !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,24 +17,20 @@
         <?php include '../partials/staff-navbar.php';?>
     </div>
 
-	<script>$('#nav-cases').addClass('active');</script>
+	<script>$('#nav-tenants').addClass('active');</script>
 
 	<main role="main" class="container-fluid cb-container-lg mb-5">
 
 		<!-- Contents -->
 
 		<nav class="mt-rem-5 mb-3" aria-label="breadcrumb">
-			<span class="h4">Case List</span>
-			<!-- <ol class="breadcrumb mt-3">
-				<li class="breadcrumb-item active" aria-current="page"><i class="fas fa-clipboard"></i> Cases</li>
-			</ol> -->
+			<span class="h4">Tenant List</span>
 		</nav>
 
-		<div class="cb-custom-card">
+		<div class="cb-custom-card mb-3">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
-					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080002aea70c4391047e88e5f/emb"></script>
-					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000d78d428287144ab6a2c2/emb"></script>
+					<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000631469584b89436c8311/emb"></script>
 				</div>
 			</div>
 		</div>

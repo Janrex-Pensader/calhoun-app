@@ -1,4 +1,4 @@
-<div class="row px-12" style="background-color: #2A2F42 !important">
+<div class="row px-6" style="background-color: #2A2F42 !important">
   <a class="navbar-brand" href="./"><img src="../img/logo.png" height=45 class="mr-3"> Maryland Evictions Online</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
     </li>
 </ul>
 </div>
-<div class="row px-12">
+<div class="row px-6">
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav">
         <li id="nav-dashboard" class="nav-item">
@@ -61,11 +61,11 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <h6 class="dropdown-header">Eviction Reports</h6>
             <a id="nav_court_summary_report" class="dropdown-item" href="./court-summary-report.php">Court Summary Report</a>
+            <a id="nav_vacate_date_report" class="dropdown-item" href="./vacate-date-report.php">Vacant Report</a>
             <!-- <a id="nav_active_cases_report" class="dropdown-item" href="./active_cases_report.php">Active Cases Report</a> -->
             <!-- <a id="nav_case_stage_report" class="dropdown-item" href="./case_stage_report.php">Case Stage Report</a> -->
             <a id="nav_in_house_case_report" class="dropdown-item" href="./in_house_case_report.php">In House Case Report</a>
             <a id="nav_eviction_summary_report" class="dropdown-item" href="./eviction-summary-report.php">Eviction Summary Report</a>
-            <a id="nav_vacate_date" class="dropdown-item" href="./vacate-date-report.php">Vacate Date Report</a>
             <!-- <a id="nav_closed_case_report" class="dropdown-item" href="./closed_case_report.php">Closed Case Report</a> -->
             <!-- <a id="nav_case_by_plan_report" class="dropdown-item" href="./case_by_plan_report.php">Case By Plan Report</a> -->
             <!-- <a id="nav_cases_by_account" class="dropdown-item" href="./cases_by_account.php">Cases By Account</a> -->
@@ -81,16 +81,26 @@
           </div>
         </li>
       </ul>
+
+      <!-- Update button -->
+      <div id="update-all-btn" class="col hide-this p-0">
+        <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003041f19ec520437ca017/emb"></script>
+      </div>
+
+      <!-- duplicate button -->
+      <div id="duplicate-case-btn" class="col hide-this p-0">
+        <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000a6f3cfde9991427d9984/emb"></script>
+      </div>
     </div>
 
-    <div id="btn-submit-all" class="row text-right hide-this mt-1">
+    <!-- <div id="btn-submit-all" class="row text-right hide-this mt-1">
       <div class="col">
         <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080003041f19ec520437ca017/emb"></script>
       </div>
       <div class="col">
         <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000a6f3cfde9991427d9984/emb"></script>
       </div>
-    </div>
+    </div> -->
 
 
 </div>

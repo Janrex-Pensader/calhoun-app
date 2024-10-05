@@ -86,11 +86,13 @@ document.addEventListener("DataPageReady", function (event) {
 
   if (event.detail.appKey == "ded080002aea70c4391047e88e5f") {
     
-    initMultiSelect2('select[name$="cbParamVirtual7"]', '[name$="cbParamVirtual4"]');
-    initMultiSelect2('select[name$="cbParamVirtual5"]', '[name$="cbParamVirtual10"]');
+    initMultiSelect2('select[name$="cbParamVirtual7"]', '[name$="cbParamVirtual4"]'); //Flag status
+    initMultiSelect2('select[name$="cbParamVirtual5"]', '[name$="cbParamVirtual10"]'); // Case Stage
+    initMultiSelect2('select[name$="cbParamVirtual3"]', '[name$="cbParamVirtual11"]'); //Case Type
 
     document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual4]').parentNode.parentNode.style.display = 'none';
     document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual10]').parentNode.parentNode.style.display = 'none';
+    document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual11]').parentNode.parentNode.style.display = 'none';
   }
 
 });
@@ -125,7 +127,7 @@ function initMultiSelect2(virtualElementSelector, selector) {
     actionsBox: true, 
     selectAllText: "Select All",
     deselectAllText: "Deselect All",
-    liveSearch: true,
+    liveSearch: false,
     selectedTextFormat: 'count > 2'
   });
 

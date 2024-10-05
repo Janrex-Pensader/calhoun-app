@@ -115,6 +115,12 @@ width: fit-content !important;
   padding-left: 12rem !important;
   padding-right: 12rem !important;
 }
+
+.px-6{
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+
 a { color:#174478; }
 .text-primary { color:#2A2F42  !important; }
 
@@ -425,7 +431,7 @@ form > div {
 }
 
 .cb-container-lg {
-    width: 1550px;
+    width: 100% !important;
 }
 
 .cb-container-md {

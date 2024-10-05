@@ -425,7 +425,7 @@ See https://github.com/adobe-type-tools/cmap-resources
   </div> <!-- outerContainer -->
   <div id="printContainer"></div>
 
-<div class="cbform" style="display: block;">
+<div class="cbform cb-view" style="display: block;">
   <?php if(isset($_GET['property'])) : ?>
     <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded080009f4e842afea942c0beef/emb"></script>
   <?php else : ?>

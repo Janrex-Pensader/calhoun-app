@@ -1,3 +1,3 @@
 <script>
-    window.location = "./owners.php"
+    window.location = "./properties.php"
 </script>

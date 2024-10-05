@@ -99,7 +99,9 @@
 	<div id="footer" class="mb-5">
         <script>
 			load_modal();
-			$("#btn-submit-all").removeClass("hide-this");
+			
+            $("#update-all-btn").removeClass("hide-this");
+            $("#duplicate-case-btn").removeClass("hide-this");
 
             document.getElementById('nav-case-details').querySelector('a').href = './case-details.php'+ window.location.search;
             document.getElementById('nav-case-files').querySelector('a').href = './case-files.php'+ window.location.search

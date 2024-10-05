@@ -4,11 +4,7 @@
 <head>
 	<?php include '../partials/header.php';?>
 	<title>Staff: Properties</title>
-    <style>
-        .cb-container-lg{
-            width: 1550px !important;
-        }
-    </style>
+    
 </head>
 
 <body>

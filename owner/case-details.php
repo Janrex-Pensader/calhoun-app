@@ -6,10 +6,6 @@
 	<title>Owner: Cases</title>
 
 	<style>
-		.cb-container-lg{
-			width: 1500px !important
-		}
-
 		input[name="Mod0EditRecord"] {
 			display: none !important;
 		}
@@ -79,7 +75,10 @@
 	<div id="footer">
 	<script>
 		load_modal()
-		$("#btn-submit-all").removeClass("hide-this");
+		
+        $("#update-all-btn").removeClass("hide-this");
+        $("#duplicate-case-btn").removeClass("hide-this");
+
 
 		// detect unsaved changes
 		$(document).ready(function () {

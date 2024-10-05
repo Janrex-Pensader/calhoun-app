@@ -4,11 +4,7 @@
 <head>
 	<?php include '../partials/header.php';?>
 	<title>Staff: Reports</title>
-    <style>
-        .cb-container-lg{
-            width: 1550px !important;
-        }
-    </style>
+
 </head>
 
 <body>
@@ -19,7 +15,7 @@
 
 	<script>
         $('#nav-reports').addClass('active');
-        $('#nav_vacate_date').addClass('active');
+        $('#nav_vacate_date_report').addClass('active');
     </script>
 
 	<main role="main" class="container-fluid cb-container-lg mb-5">
