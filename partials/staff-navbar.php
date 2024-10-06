@@ -32,7 +32,7 @@
           <a class="nav-link" href="./tenants.php?cbResetParam=1"><i class="fas fa-users"></i> Tenants</a>
         </li>
         <li id="nav-cases" class="nav-item">
-          <a class="nav-link" href="./cases.php?cbResetParam=1&case_status_fx=|1||3|"><i class="fas fa-file"></i> Cases</a>
+          <a class="nav-link" href="./cases.php?cbResetParam=1&case_status_fx=%7c1%7c+OR+%7c3%7c"><i class="fas fa-file"></i> Cases</a>
         </li>
         <li id="nav-tasks" class="nav-item">
           <a class="nav-link" href="./tasks.php?cbResetParam=1"><i class="fas fa-tasks"></i> Tasks</a>
