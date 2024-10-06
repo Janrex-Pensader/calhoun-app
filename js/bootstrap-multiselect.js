@@ -89,10 +89,12 @@ document.addEventListener("DataPageReady", function (event) {
     initMultiSelect2('select[name$="cbParamVirtual7"]', '[name$="cbParamVirtual4"]'); //Flag status
     initMultiSelect2('select[name$="cbParamVirtual5"]', '[name$="cbParamVirtual10"]'); // Case Stage
     initMultiSelect2('select[name$="cbParamVirtual3"]', '[name$="cbParamVirtual11"]'); //Case Type
+    initMultiSelect2('select[name$="cbParamVirtual6"]', '[name$="cbParamVirtual12"]'); //Case Status
 
     document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual4]').parentNode.parentNode.style.display = 'none';
     document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual10]').parentNode.parentNode.style.display = 'none';
     document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual11]').parentNode.parentNode.style.display = 'none';
+    document.querySelector('form[action*=ded080002aea70c4391047e88e5f] input[id=cbParamVirtual12]').parentNode.parentNode.style.display = 'none';
   }
 
 });
