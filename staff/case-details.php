@@ -29,27 +29,18 @@
         <?php include '../partials/staff-navbar.php';?>
     </div>
 
-	<script>
-        $('#nav-cases').addClass('active');
-    </script>
 
 	<main role="main" class="container-fluid mb-5">
 
-		<!-- Contents -->
-        <nav class="mt-rem-5 mb-2 navbar cb-white-bg cb-border-rad navbar-expand-sm p-0">
-            <ul id="case-nav-bar" class="navbar-nav">
-                <li id="nav-case-details" class="nav-item active">
-                    <a class="nav-link" href="./case-details-1.php?"><i class="fas fa-tasks"></i> Details</a>
-                </li>
-                <li id="nav-case-files" class="nav-item">
-                    <a class="nav-link" href="./case-files.php?"><i class="fas fa-file"></i> Files and Other Info</a>
-                </li>
-                <li id="nav-case-users" class="nav-item">
-                    <a class="nav-link" href="./case-users.php?"><i class="fas fa-users"></i> Tenants and Contacts</a>
-                </li>
-            </ul>
-        </nav>
+		<!-- case details navbar -->
+        <?php include '../partials/case-details-navbar.php';?>
 
+        <script>
+            $('#nav-cases').addClass('active');
+            $('#nav-case-details').addClass('active');
+        </script>
+
+        <!-- Contents -->
 		<div class="row">
 			<div class="col cb-custom-card mr-2">
 				<!-- Case Basic Info -->
@@ -73,6 +64,11 @@
 			<div class="col-4">
 				<!-- Generate PDF -->
 				<script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000aabed53787e34c9f8978/emb"></script>
+				<!-- Hidden DP for logging in Case History -->
+			<div style="display: none">
+				 <script type="text/javascript" src="https://c1abn983.caspio.com/dp/ded08000fb3759c5a50d4f588d0a/emb"></script>
+			</div>
+				
 			</div>
 		</div>
 
@@ -97,67 +93,8 @@
 
 	</main><!-- /.container -->
 	<div id="footer" class="mb-5">
-        <script>
-			load_modal();
-			
-            $("#update-all-btn").removeClass("hide-this");
-            $("#duplicate-case-btn").removeClass("hide-this");
-
-            document.getElementById('nav-case-details').querySelector('a').href = './case-details.php'+ window.location.search;
-            document.getElementById('nav-case-files').querySelector('a').href = './case-files.php'+ window.location.search
-            document.getElementById('nav-case-users').querySelector('a').href = './case-users.php'+ window.location.search
-
-			document.addEventListener('DataPageReady', function (event) {
-				$('input[name*=Phone]').inputmask({mask: '(999)-999-9999', showMaskOnHover: false, placeholder: 'x'});
-			});
-
-			const parentOfELement = document.body;
-			const onMutation = () => {
-				if (parentOfELement.querySelector("input[name*='InlineEditPhone']")) {
-					observer.disconnect();
-					console.log('test');
-					$('input[name*=Phone]').inputmask({mask: '(999)-999-9999', showMaskOnHover: false, placeholder: 'x'});
-				}
-			}
-			const observer = new MutationObserver(onMutation)
-			observer.observe(parentOfELement, {childList: true})
-
-			// detect unsaved changes
-			$(document).ready(function () {
-				unsaved = false;
-
-			// Another way to bind the event
-				$(window).bind('beforeunload', function() {
-					console.log(unsaved);
-					if(unsaved){
-						return "You have unsaved changes on this page. Are you sure you want to leave?";
-					}
-				});
-
-				// Monitor dynamic inputs
-				$(document).on('focusout paste', 'input', function(){ 
-					//triggers change in all input fields including text type
-					unsaved = true;
-				});
-
-				$(document).on('focusout keyup paste', 'textarea', function(){ 
-					//triggers change in all input fields including text type
-					unsaved = true;
-				});
-
-				$(document).on('propertychange', 'select', function(){ 
-					unsaved = true;
-				});
-			});
-
-			$('#btn-submit-all').click(function() {
-				unsaved = false;
-			});
-
-			$('button[type="button"]').click(function() {
-				unsaved = false;
-			});
-		</script>
+        <script type="text/javascript" src="../js/case-details-navbar-script.js"></script>
+        <script type="text/javascript" src="../js/case-error-checks.js"></script>
     </div>
 </body>
 </html>
